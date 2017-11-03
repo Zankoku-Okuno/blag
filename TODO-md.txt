@@ -1,0 +1,5 @@
+markdown-it-prism
+    plugins
+drawing in my md (esp box-and-line diagrams)
+embedding audio and video
+underline and strikethrough

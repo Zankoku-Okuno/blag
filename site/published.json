@@ -1,0 +1,15 @@
+{ "Journal": []
+, "Approach": []
+, "Notes":
+  [ { "title": "How to Blag"
+    , "href": "how-to-blag.md"
+    , "when":
+        { "published": "2017-11-02"
+        , "updated": []
+        }
+    }
+  , { "title": "How to Markdown"
+    , "href": "how-to-markdown.md"
+    }
+  ]
+}

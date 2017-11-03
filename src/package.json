@@ -1,0 +1,24 @@
+{
+  "name": "okuno-blag",
+  "version": "0.0.0",
+  "description": "Dependencies for my [blag](blag.okuno.info)",
+  "main": "deps.js",
+  "dependencies": {
+    "markdown-it": "^8.4.0",
+    "markdown-it-checkbox": "^1.1.0",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-toc": "^1.1.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Okuno Zankoku",
+  "license": "BSD-3-Clause"
+}
