@@ -1,5 +1,9 @@
-{ "Journal": []
-, "Approach": []
+{ "Approach":
+  [ { "title": "Browser Applications"
+    , "href": "browser-applications.md"
+    }
+  ]
+, "Journal": []
 , "Notes":
   [ { "title": "How to Blag"
     , "href": "how-to-blag.md"
