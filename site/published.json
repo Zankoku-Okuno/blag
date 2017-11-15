@@ -15,5 +15,8 @@
   , { "title": "How to Markdown"
     , "href": "how-to-markdown.md"
     }
+  , { "title": "Sir, We Have a System"
+    , "href": "systems.md"
+    }
   ]
 }
