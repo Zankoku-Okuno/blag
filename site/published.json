@@ -15,5 +15,8 @@
   , { "title": "How to Markdown"
     , "href": "how-to-markdown.md"
     }
+  , { "title": "Epigrams"
+    , "href": "epigrams.md"
+    }
   ]
 }
