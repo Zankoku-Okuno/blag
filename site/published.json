@@ -3,7 +3,11 @@
     , "href": "browser-applications.md"
     }
   ]
-, "Journal": []
+, "Journal":
+  [ { "title": "Well-Tuned Clock"
+    , "href": "journal/clock.md"
+    }
+  ]
 , "Notes":
   [ { "title": "How to Blag"
     , "href": "how-to-blag.md"
