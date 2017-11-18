@@ -20,6 +20,16 @@
 
 ## Advice
 
+### Semantics
+
+
+> A semantics is an equivalence theory subject to the principle of compositionality.
+>
+> --- Me
+
+Principle of compositionality: the meaning of a complex expression is determined by the meanings of its constituent expressions.
+The compatibility closure is fundamentally motivated by this principle.
+
 ### On Thinking
 
 > Belief is no substitute for arithmetic.
