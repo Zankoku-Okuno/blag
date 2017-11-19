@@ -9,6 +9,10 @@ It should be a 24-hour clock, with noon at the top.
 The existing 12-hour clocks make fitting blocks of time into a day difficult by rolling over during times when I am normally or often active.
 A 24-hour clock will better allow me to approximate my time planning and usage day-to-day by simple visual inspection.
 
+Notes for day-planning could be taken around the periphery of the clock.
+Tasks could be dragged onto one or more hours.
+A checkbox by each task would help identifying what is left to do.
+
 Years pass by unnoticed; this has to do with the lack of intuition in our linguistic notation for dates.
 My clock should note the time of the year in a purely visual way: using a pointer travelling around a cycle.
 The pre-existing art here is to use an ecliptic, as in an astrolabe.
@@ -17,7 +21,7 @@ I am interested in astronomical phenomena, so this astronomy addition is quite p
 The clock will therefore require my latitude and information about daylight savings.
 
 Knowing the weather is important on a daily basis to determine my carrying an umbrella and wearing coats.
-If I know temperature, precipitation, and wind, I should be pretty good.
+If I know temperature, precipitation, wind, and cloud cover, I should be pretty good.
 I haven't decided on actual temperature or adjusted for wind chill &c.
 
 I've always wanted to learn stars but I don't have a good method.
@@ -33,8 +37,13 @@ If ever I end up collaborating across time zones, I'd like the ability to have m
 
 There may also be some benefit in including a Baha'i calendar so I'm not so surprised by events.
 
+
 ## Notes
 
 planispheric projection and local sky projection
 
 [Astrolabe Manual](journal/Astrolabe_the_Missing_Manual.pdf)
+
+Given two circles of radii $R_1$, $R_2$ centered on the origin, the radius $r$ and magnitude of displacement from the origin $c$ are given by:
+  * $r = {R_1 + R_2 \over 2}$
+  * $c = {R_2 - R_1 \over 2}$
