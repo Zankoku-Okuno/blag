@@ -8,7 +8,7 @@
     , "href": "journal/clock.md"
     }
   ]
-, "Notes":
+, "Reference":
   [ { "title": "How to Blag"
     , "href": "how-to-blag.md"
     , "when":
@@ -18,6 +18,11 @@
     }
   , { "title": "How to Markdown"
     , "href": "how-to-markdown.md"
+    }
+  ]
+, "Curiosities":
+  [ { "title": "Geometry"
+    , "href": "curio/geometry.md"
     }
   ]
 }
