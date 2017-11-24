@@ -24,6 +24,9 @@ Knowing the weather is important on a daily basis to determine my carrying an um
 If I know temperature, precipitation, wind, and cloud cover, I should be pretty good.
 I haven't decided on actual temperature or adjusted for wind chill &c.
 
+Knowing where the sunlight hours are could come in handy when dealing with daylight-based scheduling constraints.
+Although sunrise/sunset should be estimable from the ecliptic and altitude lines, it'd be much easier to just read it off from some lines.
+
 I've always wanted to learn stars but I don't have a good method.
 Integrating a planisphere into the clock should do the trick.
 If I'm ending up with a computer-clock, then I could also mark the planets, something which would be extreemly difficult in a mechanical clock.
