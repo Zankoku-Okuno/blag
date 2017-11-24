@@ -3,8 +3,12 @@
     , "href": "browser-applications.md"
     }
   ]
-, "Journal": []
-, "Notes":
+, "Journal":
+  [ { "title": "Well-Tuned Clock"
+    , "href": "journal/clock.md"
+    }
+  ]
+, "Reference":
   [ { "title": "How to Blag"
     , "href": "how-to-blag.md"
     , "when":
@@ -15,8 +19,13 @@
   , { "title": "How to Markdown"
     , "href": "how-to-markdown.md"
     }
-  , { "title": "Epigrams"
+  ]
+, "Curiosities":
+  [ { "title": "Epigrams"
     , "href": "epigrams.md"
+    }
+  , { "title": "Geometry"
+    , "href": "curio/geometry.md"
     }
   ]
 }
