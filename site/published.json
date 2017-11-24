@@ -24,5 +24,17 @@
   [ { "title": "Geometry"
     , "href": "curio/geometry.md"
     }
+  , { "title": "Productivity"
+    , "href": "curio/productivity.md"
+    }
+  , { "title": "Rationalism"
+    , "href": "curio/rationalism.md"
+    }
+  , { "title": "Logic, Belief, Knowledge"
+    , "href": "curio/logic-belief-knowledge.md"
+    }
+  , { "title": "Biology"
+    , "href": "curio/biology.md"
+    }
   ]
 }
