@@ -3,8 +3,15 @@
     , "href": "browser-applications.md"
     }
   ]
-, "Journal": []
-, "Notes":
+, "Journal":
+  [ { "title": "Well-Tuned Clock"
+    , "href": "journal/clock.md"
+    }
+  , { "title": "Sir, We Have a System"
+    , "href": "systems.md"
+    }
+  ]
+, "Reference":
   [ { "title": "How to Blag"
     , "href": "how-to-blag.md"
     , "when":
@@ -15,8 +22,10 @@
   , { "title": "How to Markdown"
     , "href": "how-to-markdown.md"
     }
-  , { "title": "Sir, We Have a System"
-    , "href": "systems.md"
+  ]
+, "Curiosities":
+  [ { "title": "Geometry"
+    , "href": "curio/geometry.md"
     }
   ]
 }

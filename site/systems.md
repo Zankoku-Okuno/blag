@@ -1,6 +1,6 @@
 # Sir, We Have a System
 
-This is where I track the methods of my life organization.
+This is where I design and track the methods of my life organization.
 It includes the tools I use, the functions they perform, and areas that may need improvement.
 
 ## Fundamentals/Theory
