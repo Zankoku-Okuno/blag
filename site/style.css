@@ -1,3 +1,9 @@
 aside.note {
     background-color: blue; /* TODO */
 }
+
+body {
+    width: 60em;
+    margin: auto;
+    text-align: justify;
+}
