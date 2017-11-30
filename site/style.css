@@ -3,7 +3,7 @@ aside.note {
 }
 
 body {
-    width: 60em;
+    max-width: 50em;
     margin: auto;
-    text-align: justify;
+    padding: 2em;
 }
