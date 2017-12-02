@@ -44,5 +44,8 @@
   , { "title": "Biology"
     , "href": "curio/biology.md"
     }
+  , { "title": "Computer Science"
+    , "href": "curio/compsci.md"
+    }
   ]
 }
