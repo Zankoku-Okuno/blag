@@ -2,6 +2,15 @@
 
 This is the story of how I build my blog, what the tradeoffs are, and why I chose this system.
 
+## In-Site Structure
+
+The site itself categorizes the posts into a few general forms of post.
+These forms are there to distinguish the reason for existence of the post.
+
+  * Approach: advice on design methods; I try to "take my own medicine" as it were
+  * Journal: design notes for a particular artifact
+  * Reference: notes to myself on the particular systems I've adopted
+  * Curiosities: disorganized set of pointers to interesting problems &/ results
 
 ## Tooling
 
