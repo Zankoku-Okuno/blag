@@ -10,6 +10,9 @@
   , { "title": "Calendar Logging"
     , "href": "journal/calendar_log.md"
     }
+  , { "title": "Custom Keyboard"
+    , "href": "keyboard.md"
+    }
   ]
 , "Review":
   [ { "title": "Yearly Review 12017"
