@@ -4,12 +4,12 @@
     }
   ]
 , "Journal":
-  [ { "title": "Well-Tuned Clock"
+  [ { "title": "Sir, We Have a System"
+    , "href": "systems.md"
+    }
+  , { "title": "Well-Tuned Clock"
     , "href": "journal/clock.md"
     }
-  , { "title": "Sir, We Have a System"
-    , "href": "systems.md"
-  }
   , { "title": "Calendar Logging"
     , "href": "journal/calendar_log.md"
     }
