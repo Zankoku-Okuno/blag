@@ -1,19 +1,23 @@
 { "Approach":
   [ { "title": "Browser Applications"
     , "href": "browser-applications.md"
+    , "when": { "published": "2017-11-12" }
     }
   ]
 , "Journal":
   [ { "title": "Well-Tuned Clock"
     , "href": "journal/clock.md"
+    , "when": { "published": "2017-11-23" }
     }
   , { "title": "Calendar Logging"
     , "href": "journal/calendar_log.md"
+    , "when": { "published": "2017-11-30" }
     }
   ]
 , "Review":
   [ { "title": "Yearly Review 12017"
     , "href": "review/year-12017.md"
+    , "when": { "published": "2017-12-03" }
     }
   ]
 , "Reference":
@@ -26,6 +30,7 @@
     }
   , { "title": "How to Markdown"
     , "href": "how-to-markdown.md"
+    , "when": { "published": "2017-11-03" }
     }
   ]
 , "Curiosities":
