@@ -1,3 +1,12 @@
 aside.note {
     background-color: blue; /* TODO */
 }
+
+body {
+    max-width: 50em;
+    margin: auto;
+    padding: 2em;
+}
+
+/* TODO: better looking quote blocks */
+/* TODO: more asides */
