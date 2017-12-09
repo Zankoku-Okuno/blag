@@ -32,7 +32,10 @@
     }
   ]
 , "Curiosities":
-  [ { "title": "Geometry"
+  [ { "title": "Epigrams"
+    , "href": "epigrams.md"
+    }
+  , { "title": "Geometry"
     , "href": "curio/geometry.md"
     }
   , { "title": "Productivity"
