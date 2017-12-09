@@ -133,7 +133,44 @@ All this information can be hidden from the casual user using CSS `display: hidd
 Where the user may directly edit the stored data, then simply unhiding the appropriate elements can sometimes be enough to implement a functional user interface, if not a aesthetically pleasing one.
 
 
+## Combinatorial and Sequential Logic
 
+TODO develop this section further
+
+In digital hardware design, a distinction is made between logic which involves feedback (sequential) and can therefore store bits as memory, and logic which is pure feed-forward (combinatorial).
+Thinking about your digital circuit in these terms makes it much easier to analyze all the possible situations that might provoke a change of outputs from the circuit.
+
+In this section, the meaning of "component" is a combination of combinatorial and sequential logic protected by an abstraction boundary.
+
+Since the DOM is our (mutable) data structure, it constitutes the sequential logic.
+The combinatorial logic is a pure function on inputs, including both external inputs and the current state of the sequential logic (DOM).
+The sequential and combinatorial logic is hooked together and to other components with events.
+
+The browser is asynchronous, so there is no clock in the design as there would (usually) be in hardware.
+For the browser, we must listen on events both external and internal in order to get our logic to update.
+We have to listen to internal events just in case the user can make a change directly to the DOM themselves.
+
+To prevent infinite loops of event dispatch, when the scripting language makes changes to the calues in DOM elements, change events &co are not automatically dispatched.
+TODO: I have not tested it yet, but I expect that nothing outside a component should be able to listen to that component's sequential logic.
+Therefore, you should still not use the scripting langauge to dispatch any events from the sequential logic.
+Instead, dispatch events from the component as a whole.
+
+
+```
+            /-----------------------\
+ mutation   | Component             |
+----------> | -\      /--------\    |
+ observed   |   V---->|> Comb. |--- | ---------->
+  events    |  e|     |  Logic |    |   events
+            |  v| r/->|        |-\  |  dispatch
+            |  e| e|  \--------/ |  |
+            |  n| a|             |  |
+            |  t| d|  /-------\  |  |
+            |  s|  \--| Seq.  |<-/  |
+            |   \-----| Logic |     |
+            |         \-------/     |
+            \-----------------------/
+```
 
 
 ## Adaptor Layers
