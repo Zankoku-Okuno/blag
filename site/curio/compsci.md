@@ -2,6 +2,8 @@
 
 Assortment of fundamentals from [okmij](http://okmij.org/ftp/Computation/Computation.html)
 
+[FilePaths are subtle, symlinks are hard](http://neilmitchell.blogspot.co.uk/2015/10/filepaths-are-subtle-symlinks-are-hard.html)
+
 # Compilers
 
   * [Implementing a JIT Compiled Language with Haskell and LLVM](http://www.stephendiehl.com/llvm/)

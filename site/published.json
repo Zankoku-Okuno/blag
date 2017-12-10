@@ -30,6 +30,9 @@
   , { "title": "How to Markdown"
     , "href": "how-to-markdown.md"
     }
+  , { "title": "CLI Tools"
+    , "href": "notes/cli.md"
+    }
   ]
 , "Curiosities":
   [ { "title": "Geometry"
