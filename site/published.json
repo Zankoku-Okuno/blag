@@ -5,7 +5,10 @@
     }
   ]
 , "Journal":
-  [ { "title": "Well-Tuned Clock"
+  [ { "title": "Write-Only Database"
+    , "href": "journal/eventdb.md"
+    }
+  , { "title": "Well-Tuned Clock"
     , "href": "journal/clock.md"
     , "when": { "published": "2017-11-23" }
     }
