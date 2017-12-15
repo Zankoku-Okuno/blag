@@ -9,30 +9,58 @@ As with any dependency, let's be sure we first have an abstract understanding of
 The specific tools, and also the roles they happen to fill, should be left until later.
 This way, we'll be less likely to overfit our wants to the status-quo.
 
-  * time monitoring
-      * regular cycles
-      * usage
-  * actions
-      * prioritization/search
+The method I'm going to use here employs analogy to biological systems.
+
+  * Biological Health (endocrine)
+  * Reflection (prefrontal cortex)
+  * Filtering (kidneys)
+  * Planning and Prediction (brain)
+  * Memetic Diet (hunting)
+  * Taking Notes (digestion)
+  * Drafts/Iteration (muscles)
+  * Free Play (sleep)
+  * Detecting Bias (immune)
+  * Publishing (breeding)
+
+There may be more, but this is what I have for now.
+
+### Applied
+
+The more I think about the following list, the more I think it's less theoretical.
+
+  * reminders
+      * waiting for robot to complete
+      * appointment with someone/thing
+      * regular tasks
+      * checklists and templates
+      * deadlines
+  * timekeeping
+  * timetracking
+  * tasks repository
+      * prioritization
+      * search
       * schedule
-          * repeating events
-          * fuzzy schedule
-          * unscheduled
-          * deadlines or scheduled with others
-      * notification
+      * dependencies
+      * enhancers
   * planning
+      * long-term goals
+      * short-term (daily, weekly, &c)
+      * predict time that will be spent^[timepretracking?]
   * critical analysis/reflection/review
       * idea filtering
       * principle extraction
       * mistakes to avoid
-  * policy (incl. checklists, templates)
   * [notes](#Particular_Things_to_Keep_50)
       * morsels (quotes, puzzles, results, ...)
+      * policy
       * writing drafts
       * short-term vs. long-term
       * search
   * externalities (note what I'm ignoring)
   * communication systems
+  * organization
+      * digital
+      * physical space utilization
 
 The purpose of a human life is to design a life it wants to live.
 I want to live a life where my decisions become better.
@@ -41,32 +69,51 @@ Over time, those conscious decisions may become habits themselves, but hopefully
 
 ## Current Tools
 
-  * Wallet Notebook --- 
-  * Three-Ring Notebook --- 
-  * okuno.info --- 
-  * Regularly --- 
-  * Tomoe River Paper --- 
-  * Ideas Folder --- 
-  * Github --- 
-  * Simple Timer --- 
-  * Sort Folders --- 
-  * blag.okuno.info --- 
-  * clock.okuno.info --- 
-  * Garbage Collection --- 
+  * okuno.info ---
+        Task memory and prioritization.
+        Underdeveloped w.r.t. searching tasks, scheduling tasks, and timetracking.
+  * Regularly ---
+        Repeating events.
+  * Tomoe River Paper ---
+        Daily planning.
+  * Wall Calendar ---
+        Qualitative, coarse-grained time tracking.
+        Aids review tasks.
+  * blag.okuno.info ---
+        Brute-force solution to various review and notekeeping tasks.
+  * Garbage Collection ---
+        Regular idea filtering.
+  * Wallet Notebook ---
+        Short idea recording available at all tiems^[as long as I'm wearing pants].
+        Further, it is external short-term memory^[the Field Notes-style "write it down to remember it now"].
+  * Three-Ring Notebook ---
+        Long-form idea recording.
+  * Ideas Folder ---
+        Supports Garbage Collection to filter programming ideas.
+  * Github ---
+        Long-term project storage.
+        Could be more, but underutilized.
+  * clock.okuno.info ---
+        Timekeeping in regular cycles.
+        Could be much more, but underdeveloped.
+  * OK Timer ---
+        Reminders to resume robot-blocked tasks.
+  * Sort Folders ---
+        Temporary holding for digital information before organization.
 
 ## Improvement
 
-  * Reduce the number of things I have to do to get something into okuno.info:
-    1. create new tags with a new action item,
-    2. mission statement should be optional,
-    3. get layout on the page to work on mobile.
-    
-  * Better ways to filter:
+  * Better ways to search tasks:
     1. filter by size (e.g. I only have a little time vs. I can make progress on something large),
     2. dismiss a tag,
     3. attach an `x` button to action item descriptors that hides every item with that descriptor,
     4. button that resets all filters,
     5. view a project without activating it.
+    
+  * Reduce the number of things I have to do to get something into okuno.info:
+    1. create new tags with a new action item,
+    2. mission statement should be optional,
+    3. get layout on the page to work on mobile.
     
   * Improved action item data:
     1. when putting an item into waiting mode, allow for a date to be set when the item will re-appear,
@@ -97,6 +144,11 @@ Over time, those conscious decisions may become habits themselves, but hopefully
     3. fundamentals of inscription.
 
 ## Particular Forms of Notes
+
+TODO: Writing tasks can't all be lumped together.
+A small reminder is very different from a monthly review is very different from working on an academic article.
+I therefore need to get some more experience of different writing forms and find out what kinds of systems might even be needed.
+For now, I'm just brute-forcing is with the blag.
 
 A number of writing- and academia-related stuff:
 
