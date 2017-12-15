@@ -172,6 +172,11 @@ Instead, dispatch events from the component as a whole.
             \-----------------------/
 ```
 
+Since the outputs of these components are events, they should implement the [`EventTarget`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget) interface.
+However, I am not convinced that it is advisable to allow external entities to spoof events that are normally generated from within a component.
+For primitive HTML elements, the `EventTarget.dispatchEvent` method seems to exist merely so that programmers may send events when they mutate attributes of an element.
+In order to be self-contained, a component should construct and fire these events themselves inside any mutators the component may expose.
+
 
 ## Adaptor Layers
 
