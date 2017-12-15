@@ -44,6 +44,10 @@ p, li {
     text-align: justify;
 }
 
+p {
+    text-indent: 1.33em;
+}
+
 h1, h2, h3, h4, h5, h6, p, ul, ol, dl {
     margin: 0em;
 }

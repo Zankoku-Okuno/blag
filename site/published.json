@@ -36,6 +36,10 @@
     , "href": "how-to-markdown.md"
     , "when": { "published": "2017-11-03" }
     }
+  , { "title": "How to Haiku"
+    , "href": "how-to-haiku.md"
+    , "when": { "published": "2017-12-10" }
+    }
   ]
 , "Curiosities":
   [ { "title": "Geometry"
