@@ -5,7 +5,11 @@
     }
   ]
 , "Journal":
-  [ { "title": "Well-Tuned Clock"
+  [ { "title": "Sir, We Have a System"
+    , "href": "systems.md"
+    , "when": { "published": "2017-12-14" }
+    }
+  , { "title": "Well-Tuned Clock"
     , "href": "journal/clock.md"
     , "when": { "published": "2017-11-23" }
     }
