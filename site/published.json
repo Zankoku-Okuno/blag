@@ -3,6 +3,9 @@
     , "href": "browser-applications.md"
     , "when": { "published": "2017-11-12" }
     }
+  , { "title": "The Theory of Some Common Object-Oriented Features"
+    , "href": "theoretical-oo.md"
+    }
   ]
 , "Journal":
   [ { "title": "Sir, We Have a System"
