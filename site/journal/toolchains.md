@@ -32,6 +32,8 @@ TODO: what do I do about constraint programming? theorem proving (coq, isabelle)
 
 ghc, cabal, stack, ghcjs
 
+* [What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/)
+
 ### C
 
 gcc, llvm
@@ -43,6 +45,14 @@ sqlite3, postgresql
 ### VHDL
 
 ghdl, gtkmake
+
+#### Learning
+
+* [What every software programmer needs to understand about hardware design](https://www.nandland.com/articles/what-software-programmers-need-to-understand.html)
+* [VHDL GUIDES](http://www.ics.uci.edu/~jmoorkan/vhdlref/)
+* [A structured VHDL design method](http://www.gaisler.com/doc/vhdl2proc.pdf)
+* [Nandland VHDL Tutorial](https://www.nandland.com/vhdl/tutorials/index.html)
+
 
 ### Rust
 ### Java/C#
