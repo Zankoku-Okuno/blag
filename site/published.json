@@ -5,7 +5,11 @@
     }
   ]
 , "Journal":
-  [ { "title": "Write-Only Database"
+  [ { "title": "Sir, We Have a System"
+    , "href": "systems.md"
+    , "when": { "published": "2017-12-14" }
+    }
+  , { "title": "Write-Only Database"
     , "href": "journal/eventdb.md"
     }
   , { "title": "Well-Tuned Clock"
@@ -34,6 +38,10 @@
   , { "title": "How to Markdown"
     , "href": "how-to-markdown.md"
     , "when": { "published": "2017-11-03" }
+    }
+  , { "title": "How to Haiku"
+    , "href": "how-to-haiku.md"
+    , "when": { "published": "2017-12-10" }
     }
   ]
 , "Curiosities":
