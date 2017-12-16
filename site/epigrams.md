@@ -30,7 +30,7 @@
 >
 > --- Me
 
-[^compositionality]: Principle of compositionality is that the meaning of a complex expression is determined by the meanings of its constituent expressions.
+[^compositionality]: Principle of compositionality is that the meaning of a complex expression is determined by the meanings of its constituent subexpressions.
 The compatibility closure is fundamentally motivated by this principle.
 
 Composition is combining things in a way that allows you to further combine them.
@@ -49,6 +49,12 @@ Further, it should be impossible to distinguish a combined object of interest fr
 >
 > --- Grady Booch
 
+
+> Computer science is the most difficult branch of applied mathematics.
+>
+> Edsger Dijkstra
+
+Molecular biology is the most difficult branch of computer science.
 
 ## Advice
 
@@ -74,11 +80,23 @@ Further, it should be impossible to distinguish a combined object of interest fr
 >
 > --- CGP Grey
 
+> Asking why someone is creating something is kind of a fallacy, because making things is always more valuable than consuming things.
+>
+> --- based on Simone Giertz
+
 ### On Thinking
 
 > Belief is no substitute for arithmetic.
 >
 > --- Henry Spencer
+
+> In order to really understand any topic, you have to understand a little bit of the level of complexity just below that topic.
+>
+>--- [a professor of Hank Green](https://www.youtube.com/watch?v=QnQe0xW_JY4&t=89s)
+
+### On Design
+
+Every creation has a design implicit in it, intentional or not.
 
 ### On Programming
 
