@@ -53,5 +53,8 @@
   , { "title": "Computer Science"
     , "href": "curio/compsci.md"
     }
+  , { "title": "Physics"
+    , "href": "curio/physics.md"
+    }
   ]
 }
