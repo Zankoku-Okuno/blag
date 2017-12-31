@@ -83,7 +83,7 @@ There are some disadvantages when doing this in the browser:
 In practive, I don't find these particularly meaningful.
 For the unweildy names, I use an editor that helps me out with auto-complete:
 for `querySelectorAll`, I usually only need to type `qsa<tab>`.
-I'll admit that the imperativeness of the API only debatably a disadvantage, even though I have a strong preference against imperative programming.
+I'll admit that the imperativeness of the API only debatably a disadvantage, even though I have a strong preference against imperative programming^[see [Immutable User Interfaces](https://www.youtube.com/watch?v=rtcn9I9sB5M) for a talk I strongly agree with].
 In any case, the DOM is most naturally and widely understood as a mutable data structure, and that provides a lot of pressure to develop a mutation-based understanding.
 Working with pure APIs is a huge advantage, though, and that may end up outweighing all the advantages I've so far discussed.
 In particular, those who cannot accurately count how many mutable references there are in twenty SLOC of Javascript^[which is harder than you think!] should probably treat an imperative API as a serious disadvantage.
