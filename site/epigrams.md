@@ -74,6 +74,10 @@ Needs are wants that, if you say "no" to them, you are also saying "no" by impli
 >
 > --- Henry Spencer
 
+If you have "noise" in your measurements of a complex physical system over time, try to run a Fourier analysis.
+Perhaps the noise is actually internal structure.
+See videos [What Do Stars Sound Like?](https://www.youtube.com/watch?v=TbWyuJYybMA) and [Dominoes - HARDCORE Mode](https://www.youtube.com/watch?v=9hPIobthvHg).
+
 ### On Programming
 
 Code that varies together should stay together.

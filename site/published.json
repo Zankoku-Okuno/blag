@@ -73,5 +73,8 @@
   , { "title": "Physics"
     , "href": "curio/physics.md"
     }
+  , { "title": "Linguistics"
+    , "href": "curio/linguistics.md"
+    }
   ]
 }
