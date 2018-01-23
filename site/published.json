@@ -9,6 +9,9 @@
     , "href": "systems.md"
     , "when": { "published": "2017-12-14" }
     }
+  , { "title": "How to Academic Writing"
+    , "href": "journal/how-to-academic-writing.md"
+    }
   , { "title": "How to Organize Code"
     , "href": "journal/organizing-code.md"
     , "when": { "published": "2018-01-06" }

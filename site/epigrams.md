@@ -78,6 +78,8 @@ If you have "noise" in your measurements of a complex physical system over time,
 Perhaps the noise is actually internal structure.
 See videos [What Do Stars Sound Like?](https://www.youtube.com/watch?v=TbWyuJYybMA) and [Dominoes - HARDCORE Mode](https://www.youtube.com/watch?v=9hPIobthvHg).
 
+The world is much better modelled by the real numbers than by booleans.
+
 ### On Programming
 
 Code that varies together should stay together.
