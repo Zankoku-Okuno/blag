@@ -3,6 +3,17 @@
 This is where I design and track the methods of my life organization.
 It includes the tools I use, the functions they perform, and areas that may need improvement.
 
+## Some Guiding Inspiration
+
+The purpose of a human life is to design a life it wants to live.
+
+A review is not just a list of accomplishments and shortcomings;
+it is an opportunity to choose what highlight.
+The quality of that choice will affect the quality of further action.
+
+If being an executive means not having anywhere else to pass the blame to, then the life of an executive is about making significant decisions, living with the outcomes, striving to make better choices, and not relying on luck or privilege.
+
+
 ## Fundamentals/Theory
 
 As with any dependency, let's be sure we first have an abstract understanding of our needs.
@@ -11,7 +22,7 @@ This way, we'll be less likely to overfit our wants to the status-quo.
 
 The method I'm going to use here employs analogy to biological systems.
 
-  * Biological Health (endocrine)
+  * Biological Health (circulatory)
   * Reflection (prefrontal cortex)
   * Filtering (kidneys)
   * Planning and Prediction (brain)
