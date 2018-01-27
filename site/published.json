@@ -58,6 +58,9 @@
   [ { "title": "Epigrams"
     , "href": "epigrams.md"
     }
+  , { "title": "Lexicon of Ideas"
+    , "href": "curio/fun-words.md"
+    }
   , { "title": "Geometry"
     , "href": "curio/geometry.md"
     }
@@ -81,6 +84,9 @@
     }
   , { "title": "Linguistics"
     , "href": "curio/linguistics.md"
+    }
+  , { "title": "Mathematics"
+    , "href": "curio/math.md"
     }
   ]
 }

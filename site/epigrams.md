@@ -6,9 +6,13 @@
 
 ### Living
 
+Automation is the art of being in two places at once.
+
 Professionalism is outrunning the bear, even when you could just outrun the other campers.
 
-Automation is the art of being in two places at once.
+Minimalism:
+  * in design: Adding functionality by removing features.
+  * in life: Remembering to poop.
 
 ### Epistemology
 
@@ -33,11 +37,19 @@ Further, it should be impossible to distinguish a combined object of interest fr
 
 Online advertising is there to support sites that don't have enough investment from either the owners or the users.
 
+SABLE: Stash Acquisition Beyond Life Expectancy.
+
+Time is the only resource which is not only isn't renewable, but you can't even move on to greener pastures once you've exhausted the local supply --- you're just dead at that point.
+
 ### Programming
 
 > Architecture represents the significant design decisions that shape a system, where "significant" is measured by the cost of change.
 >
 > --- Grady Booch
+
+### Design
+
+Visual design --- perhaps all of aesthetics --- is the the application of the theory of cooperative games where the goal is to direct attention.
 
 
 ## Advice
@@ -80,6 +92,8 @@ See videos [What Do Stars Sound Like?](https://www.youtube.com/watch?v=TbWyuJYyb
 
 The world is much better modelled by the real numbers than by booleans.
 
+When I attempt a vague problem, my method has been: 1) ask some questions, then 2) try something.
+
 ### On Programming
 
 Code that varies together should stay together.
@@ -98,6 +112,10 @@ All programming languages have types:
 If you had to do a _deep_ clone, then you were using the wrong data structure to begin with: one with too much mutable state.
 
 When declarations are first class, metaprogramming isn't anymore.
+
+There are only two places to use strings, and they're both unvalidated input:
+you recieve a string, or
+someone gets a string from you.
 
 ### Miscellaneous
 
