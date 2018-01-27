@@ -3,6 +3,9 @@
     , "href": "browser-applications.md"
     , "when": { "published": "2017-11-12" }
     }
+  , { "title": "FizzBuzz"
+    , "href": "programming-philosophy/fizzbuzz.md"
+    }
   ]
 , "Journal":
   [ { "title": "Sir, We Have a System"
