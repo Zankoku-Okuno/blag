@@ -5,6 +5,7 @@
     }
   , { "title": "FizzBuzz"
     , "href": "programming-philosophy/fizzbuzz.md"
+    , "when": { "published": "2018-01-27" }
     }
   ]
 , "Journal":
