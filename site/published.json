@@ -3,6 +3,9 @@
     , "href": "browser-applications.md"
     , "when": { "published": "2017-11-12" }
     }
+  , { "title": "Abstraction"
+    , "href": "programming-philosophy/abstraction.md"
+    }
   , { "title": "FizzBuzz"
     , "href": "programming-philosophy/fizzbuzz.md"
     , "when": { "published": "2018-01-27" }
