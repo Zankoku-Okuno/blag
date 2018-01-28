@@ -39,7 +39,7 @@ Online advertising is there to support sites that don't have enough investment f
 
 SABLE: Stash Acquisition Beyond Life Expectancy.
 
-Time is the only resource which is not only isn't renewable, but you can't even move on to greener pastures once you've exhausted the local supply --- you're just dead at that point.
+Time is the only resource which is not only isn't renewable, but you can't even get any more after you've exhausted the local supply --- you're just dead at that point.
 
 ### Programming
 
