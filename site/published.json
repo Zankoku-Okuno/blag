@@ -57,6 +57,9 @@
   , { "title": "CLI Tools"
     , "href": "notes/cli.md"
     }
+  , { "title": "How to Story"
+    , "href": "notes/how-to-story.md"
+    }
   ]
 , "Curiosities":
   [ { "title": "Epigrams"
