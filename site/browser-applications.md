@@ -83,7 +83,7 @@ There are some disadvantages when doing this in the browser:
 In practive, I don't find these particularly meaningful.
 For the unweildy names, I use an editor that helps me out with auto-complete:
 for `querySelectorAll`, I usually only need to type `qsa<tab>`.
-I'll admit that the imperativeness of the API only debatably a disadvantage, even though I have a strong preference against imperative programming.
+I'll admit that the imperativeness of the API only debatably a disadvantage, even though I have a strong preference against imperative programming^[see [Immutable User Interfaces](https://www.youtube.com/watch?v=rtcn9I9sB5M) for a talk I strongly agree with].
 In any case, the DOM is most naturally and widely understood as a mutable data structure, and that provides a lot of pressure to develop a mutation-based understanding.
 Working with pure APIs is a huge advantage, though, and that may end up outweighing all the advantages I've so far discussed.
 In particular, those who cannot accurately count how many mutable references there are in twenty SLOC of Javascript^[which is harder than you think!] should probably treat an imperative API as a serious disadvantage.
@@ -133,7 +133,49 @@ All this information can be hidden from the casual user using CSS `display: hidd
 Where the user may directly edit the stored data, then simply unhiding the appropriate elements can sometimes be enough to implement a functional user interface, if not a aesthetically pleasing one.
 
 
+## Combinatorial and Sequential Logic
 
+TODO develop this section further
+
+In digital hardware design, a distinction is made between logic which involves feedback (sequential) and can therefore store bits as memory, and logic which is pure feed-forward (combinatorial).
+Thinking about your digital circuit in these terms makes it much easier to analyze all the possible situations that might provoke a change of outputs from the circuit.
+
+In this section, the meaning of "component" is a combination of combinatorial and sequential logic protected by an abstraction boundary.
+
+Since the DOM is our (mutable) data structure, it constitutes the sequential logic.
+The combinatorial logic is a pure function on inputs, including both external inputs and the current state of the sequential logic (DOM).
+The sequential and combinatorial logic is hooked together and to other components with events.
+
+The browser is asynchronous, so there is no clock in the design as there would (usually) be in hardware.
+For the browser, we must listen on events both external and internal in order to get our logic to update.
+We have to listen to internal events just in case the user can make a change directly to the DOM themselves.
+
+To prevent infinite loops of event dispatch, when the scripting language makes changes to the calues in DOM elements, change events &co are not automatically dispatched.
+TODO: I have not tested it yet, but I expect that nothing outside a component should be able to listen to that component's sequential logic.
+Therefore, you should still not use the scripting langauge to dispatch any events from the sequential logic.
+Instead, dispatch events from the component as a whole.
+
+
+```
+            /-----------------------\
+ mutation   | Component             |
+----------> | -\      /--------\    |
+ observed   |   V---->|> Comb. |--- | ---------->
+  events    |  e|     |  Logic |    |   events
+            |  v| r/->|        |-\  |  dispatch
+            |  e| e|  \--------/ |  |
+            |  n| a|             |  |
+            |  t| d|  /-------\  |  |
+            |  s|  \--| Seq.  |<-/  |
+            |   \-----| Logic |     |
+            |         \-------/     |
+            \-----------------------/
+```
+
+Since the outputs of these components are events, they should implement the [`EventTarget`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget) interface.
+However, I am not convinced that it is advisable to allow external entities to spoof events that are normally generated from within a component.
+For primitive HTML elements, the `EventTarget.dispatchEvent` method seems to exist merely so that programmers may send events when they mutate attributes of an element.
+In order to be self-contained, a component should construct and fire these events themselves inside any mutators the component may expose.
 
 
 ## Adaptor Layers

@@ -1,19 +1,41 @@
 { "Approach":
   [ { "title": "Browser Applications"
     , "href": "browser-applications.md"
+    , "when": { "published": "2017-11-12" }
+    }
+  , { "title": "FizzBuzz"
+    , "href": "programming-philosophy/fizzbuzz.md"
+    , "when": { "published": "2018-01-27" }
     }
   ]
 , "Journal":
-  [ { "title": "Well-Tuned Clock"
+  [ { "title": "Sir, We Have a System"
+    , "href": "systems.md"
+    , "when": { "published": "2017-12-14" }
+    }
+  , { "title": "How to Academic Writing"
+    , "href": "journal/how-to-academic-writing.md"
+    }
+  , { "title": "How to Organize Code"
+    , "href": "journal/organizing-code.md"
+    , "when": { "published": "2018-01-06" }
+    }
+  , { "title": "Well-Tuned Clock"
     , "href": "journal/clock.md"
+    , "when": { "published": "2017-11-23" }
     }
   , { "title": "Calendar Logging"
     , "href": "journal/calendar_log.md"
+    , "when": { "published": "2017-11-30" }
+    }
+  , { "title": "Custom Keyboard"
+    , "href": "keyboard.md"
     }
   ]
 , "Review":
   [ { "title": "Yearly Review 12017"
     , "href": "review/year-12017.md"
+    , "when": { "published": "2017-12-03" }
     }
   ]
 , "Reference":
@@ -26,11 +48,22 @@
     }
   , { "title": "How to Markdown"
     , "href": "how-to-markdown.md"
+    , "when": { "published": "2017-11-03" }
+    }
+  , { "title": "How to Haiku"
+    , "href": "how-to-haiku.md"
+    , "when": { "published": "2017-12-10" }
+    }
+  , { "title": "CLI Tools"
+    , "href": "notes/cli.md"
     }
   ]
 , "Curiosities":
   [ { "title": "Epigrams"
     , "href": "epigrams.md"
+    }
+  , { "title": "Lexicon of Ideas"
+    , "href": "curio/fun-words.md"
     }
   , { "title": "Geometry"
     , "href": "curio/geometry.md"
@@ -46,6 +79,18 @@
     }
   , { "title": "Biology"
     , "href": "curio/biology.md"
+    }
+  , { "title": "Computer Science"
+    , "href": "curio/compsci.md"
+    }
+  , { "title": "Physics"
+    , "href": "curio/physics.md"
+    }
+  , { "title": "Linguistics"
+    , "href": "curio/linguistics.md"
+    }
+  , { "title": "Mathematics"
+    , "href": "curio/math.md"
     }
   ]
 }
