@@ -26,7 +26,10 @@
     }
   ]
 , "Review":
-  [ { "title": "Yearly Review 12017"
+  [ { "title": "Monthly Review January 12018"
+    , "href": "review/month-12018-01.md"
+    }
+  , { "title": "Yearly Review 12017"
     , "href": "review/year-12017.md"
     , "when": { "published": "2017-12-03" }
     }
