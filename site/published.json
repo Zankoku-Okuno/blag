@@ -54,6 +54,10 @@
     , "href": "how-to-markdown.md"
     , "when": { "published": "2017-11-03" }
     }
+  , { "title": "How to LaTeX"
+    , "href": "notes/how-to-latex.md"
+    , "when": { "published": "2017-02-03" }
+    }
   , { "title": "How to Haiku"
     , "href": "how-to-haiku.md"
     , "when": { "published": "2017-12-10" }
