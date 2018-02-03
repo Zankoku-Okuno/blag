@@ -37,6 +37,9 @@
     , "href": "review/year-12017.md"
     , "when": { "published": "2017-12-03" }
     }
+  , { "title": "Monthly Review: 12018 Feb"
+    , "href": "review/month-12018-02.md"
+    }
   , { "title": "Monthly Review: 12018 Jan"
     , "href": "review/month-12018-01.md"
     , "when": { "published": "2018-02-03"}
