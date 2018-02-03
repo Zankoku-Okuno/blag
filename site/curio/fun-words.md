@@ -26,3 +26,5 @@ Mottainai --- from Japanese "what a waste": an expression conveying regret of wa
 
 Clusterfumble --- Enlgish portmanteau: a disorganized assortment of tools all oriented towared a purpose, but which is cumbersome to employ and may not even be effective.
     E.g. ["clusterfumble of digital devices"](http://www.utilware.com/gsd3.html)
+
+Cognoscente (pl. cognoscenti) --- from Italian: Someone possessing superior or specialized knowledge in a particular field.
