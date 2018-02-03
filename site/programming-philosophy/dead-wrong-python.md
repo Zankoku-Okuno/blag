@@ -34,6 +34,17 @@ I've put the answer in this footnote^[`True = False`] so as not to spoil you, bu
 Admitedly, this was fixed in Python 3, but the design should never have been that terrible in the first place.
 The rest of the examples will work^[that is, they will fail] in both Python 2 and Python 3.
 
+## Silencing the Problem
+
+```
+class Foo
+    def foo(self):
+        return 4
+
+    def foo(self):
+        pass
+```
+
 ## Easy Proxy Patterns
 
 ```
