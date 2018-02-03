@@ -88,6 +88,10 @@ Visual design --- perhaps all of aesthetics --- is the the application of the th
 Every "yes" you say is an implied "no" to all the other things you could have done: that's opportunity cost.
 Needs are wants that, if you say "no" to them, you are also saying "no" by implication to more than the usual number of other things.
 
+> The product isn't the work; the work is the work.
+>
+> --- CGP Grey on [Cortex #62](https://www.relay.fm/cortex/62)
+
 ### On Thinking
 
 > Belief is no substitute for arithmetic.
