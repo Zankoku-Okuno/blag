@@ -3,11 +3,18 @@
     , "href": "browser-applications.md"
     , "when": { "published": "2017-11-12" }
     }
+  , { "title": "FizzBuzz"
+    , "href": "programming-philosophy/fizzbuzz.md"
+    , "when": { "published": "2018-01-27" }
+    }
   ]
 , "Journal":
   [ { "title": "Sir, We Have a System"
     , "href": "systems.md"
     , "when": { "published": "2017-12-14" }
+    }
+  , { "title": "How to Academic Writing"
+    , "href": "journal/how-to-academic-writing.md"
     }
   , { "title": "How to Organize Code"
     , "href": "journal/organizing-code.md"
@@ -53,10 +60,16 @@
     , "href": "how-to-haiku.md"
     , "when": { "published": "2017-12-10" }
     }
+  , { "title": "CLI Tools"
+    , "href": "notes/cli.md"
+    }
   ]
 , "Curiosities":
   [ { "title": "Epigrams"
     , "href": "epigrams.md"
+    }
+  , { "title": "Lexicon of Ideas"
+    , "href": "curio/fun-words.md"
     }
   , { "title": "Geometry"
     , "href": "curio/geometry.md"
@@ -78,6 +91,12 @@
     }
   , { "title": "Physics"
     , "href": "curio/physics.md"
+    }
+  , { "title": "Linguistics"
+    , "href": "curio/linguistics.md"
+    }
+  , { "title": "Mathematics"
+    , "href": "curio/math.md"
     }
   ]
 }
