@@ -14,6 +14,10 @@ Minimalism:
   * in design: Adding functionality by removing features.
   * in life: Remembering to poop.
 
+An adult is a sentience that is able to reliably make choices about themself and their future light cone.
+A child is in training to become an adult.
+A monkey doesn't get why choices are such a big deal and just wants to get back to eating its banana.
+
 ### Epistemology
 
 Belief is the assertion of a probability of truth.
