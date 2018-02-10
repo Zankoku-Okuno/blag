@@ -45,6 +45,8 @@ SABLE: Stash Acquisition Beyond Life Expectancy.
 
 Time is the only resource which is not only isn't renewable, but you can't even get any more after you've exhausted the local supply --- you're just dead at that point.
 
+Minimalism in economics: "Your money is worth more if you have less of it"^[I.e. the marginal value of money to a rich person is not very high. I suppose the marginal value to civilization of money in the hands of the very poor is also not that good; if the money isn't doing more that keeping that person alive, then it's not growing civilization. Nevertheless, in the case of essentially every college-educated American, the epigram holds.].
+
 ### Programming
 
 > Architecture represents the significant design decisions that shape a system, where "significant" is measured by the cost of change.
@@ -95,6 +97,10 @@ Needs are wants that, if you say "no" to them, you are also saying "no" by impli
 > The product isn't the work; the work is the work.
 >
 > --- CGP Grey on [Cortex #62](https://www.relay.fm/cortex/62)
+
+> You don't miss your chance until you die.
+>
+> --- Nathan Zed
 
 ### On Thinking
 
