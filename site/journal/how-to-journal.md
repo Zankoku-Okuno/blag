@@ -14,3 +14,7 @@ The content also won't be attempting quality, but will just be free expression w
 And if one day I wake up and can't think of anything to write, I will write "The reason for getting out of bed in the morning is to find a reason to get out of bed in the morning."
 The solution to a blank page is to write on it, and that kind of idea can go so many places I should have no problem finding something from my life to follow on from it.
 > The work is the inspiration.
+
+Between the blag and my daily journal, I'm doing a lot of writing, and it's ballooning my meta time taking care of it.
+One way I could think about it is that the journal is spontaneous writing practice, whereas the blag is directed writing practice.
+As such, I should be choosing goals for the blag, not simply garbage collecting everything into it, even if it "would make a good piece for the blag".
