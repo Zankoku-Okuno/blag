@@ -9,7 +9,10 @@
     }
   ]
 , "Journal":
-  [ { "title": "Sir, We Have a System"
+  [ { "title": "Analogital"
+    , "href": "journal/analogital.md"
+    }
+  , { "title": "Sir, We Have a System"
     , "href": "systems.md"
     , "when": { "published": "2017-12-14" }
     }
