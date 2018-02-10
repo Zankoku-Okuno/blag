@@ -150,3 +150,5 @@ someone gets a string from you.
 ### Miscellaneous
 
 The reason "No Man's Sky" failed^[i.e. its environments were boring] is because cryptography is hard.
+
+I remember a moment when I was six and was being taught how to raed clocks: I was so proud that I had figured out why it was called the "second" hand instead of the third hand. "It's because it counts seconds!"
