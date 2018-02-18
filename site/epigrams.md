@@ -147,6 +147,9 @@ There are only two places to use strings, and they're both unvalidated input:
 you recieve a string, or
 someone gets a string from you.
 
+Every identifier has a scope wherin it is unique.
+If the scope is not mentioned in the specification of an id, confusion is going to happen.
+
 ### Miscellaneous
 
 The reason "No Man's Sky" failed^[i.e. its environments were boring] is because cryptography is hard.
