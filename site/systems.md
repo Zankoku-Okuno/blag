@@ -174,3 +174,11 @@ A number of writing- and academia-related stuff:
   * puzzles
   * definitions/reference
   * reflection
+
+## Notes on Tooling
+
+Look at the "Things 3" app for a minimalist to-do system.
+
+Scheduled tasks vs. travel: notifications must handle using timezoned time vs. local time intelligently.
+
+The killer feature of to-do systems is to hide things that are not immediately actionable.
