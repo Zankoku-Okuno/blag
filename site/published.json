@@ -79,6 +79,9 @@
   , { "title": "Geometry"
     , "href": "curio/geometry.md"
     }
+  , { "title" : "Color"
+    , "href": "curio/color.md"
+    }
   , { "title": "Productivity"
     , "href": "curio/productivity.md"
     }
