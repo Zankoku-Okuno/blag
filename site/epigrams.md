@@ -120,6 +120,9 @@ The world is much better modelled by the real numbers than by booleans.
 
 When I attempt a vague problem, my method has been: 1) ask some questions, then 2) try something.
 
+A delicious fruit starts with good soil.
+Likewise, clear knowledge starts with foundations.
+
 ### On Design
 
 Every creation has a design implicit in it, intentional or not.
