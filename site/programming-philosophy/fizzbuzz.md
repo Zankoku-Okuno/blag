@@ -1,3 +1,5 @@
+# Kanso FizzBuzz
+
 We all know the classic "FizzBuzz" interview question, reproduced here for reference:
 
 > Write a program that prints the numbers from 1 to 100.
@@ -30,7 +32,8 @@ With only my ability to speculate, it would be an epistemic miracle if I chose t
 #^s^2&3. What are you going to do to eliminate or condense these strings?
 Perhaps `let fizz = "Fizz"`?
 If so, don't forget to `let one = 1` too.
-On the other hand, the problem statement is perfectly clear despite its use of magic strings.
+On the other side of the ledger, the problem statement uses magic strings, but is perfectly clear anyway.
+Perhaps the problem with magic strings is more one of scale and/or architectural documentation.
 
 #4. Until some sort of `isDivisibleBy` function makes it into standard libraries, I'm not going to re-define the idiom in every package of code I publish.
 Make no mistake: I've made improved standard libraries before, but it just too hard to stick to custom stuff everywhere, no matter how quality it is.
@@ -40,4 +43,4 @@ I'm not going to re-define this idiom every time I want to use it.
 A simple problem requires a simple solution.
 On its own, FizzBuzz as an interview question only filters out those that can't write code at all.
 If you want to test applicants' abilities more in-depth, ask deeper questions.
-Ask them to modify a program, characterize the possible results of a function given the range of possible inputs, or decompose a large problem into smaler units.
+Ask them to modify a program, characterize the possible results of a function given the range of possible inputs, or decompose a large problem into smaller units.
