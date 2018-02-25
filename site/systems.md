@@ -188,3 +188,12 @@ Note that, unlike the Yearly Themes discusses on Cortex, my approach is not a pr
     1. notes database,
     2. drafts technology or system,
     3. fundamentals of inscription.
+
+
+## Notes on Tooling
+
+Look at the "Things 3" app for a minimalist to-do system.
+
+Scheduled tasks vs. travel: notifications must handle using timezoned time vs. local time intelligently.
+
+The killer feature of to-do systems is to hide things that are not immediately actionable.

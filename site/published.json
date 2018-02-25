@@ -62,6 +62,9 @@
     , "href": "how-to-haiku.md"
     , "when": { "published": "2017-12-10" }
     }
+  , { "title": "Help for Pen Addiction"
+    , "href": "notes/pens.md"
+    }
   , { "title": "CLI Tools"
     , "href": "notes/cli.md"
     }
@@ -75,6 +78,9 @@
     }
   , { "title": "Geometry"
     , "href": "curio/geometry.md"
+    }
+  , { "title" : "Color"
+    , "href": "curio/color.md"
     }
   , { "title": "Productivity"
     , "href": "curio/productivity.md"

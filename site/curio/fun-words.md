@@ -28,3 +28,5 @@ Clusterfumble --- Enlgish portmanteau: a disorganized assortment of tools all or
     E.g. ["clusterfumble of digital devices"](http://www.utilware.com/gsd3.html)
 
 Cognoscente (pl. cognoscenti) --- from Italian: Someone possessing superior or specialized knowledge in a particular field.
+
+fromever: from forever
