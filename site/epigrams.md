@@ -14,6 +14,10 @@ Minimalism:
   * in design: Adding functionality by removing features.
   * in life: Remembering to poop.
 
+An adult is a sentience that is able to reliably make choices about themself and their future light cone.
+A child is in training to become an adult.
+A monkey doesn't get why choices are such a big deal and just wants to get back to eating its banana.
+
 ### Epistemology
 
 Belief is the assertion of a probability of truth.
@@ -40,6 +44,8 @@ Online advertising is there to support sites that don't have enough investment f
 SABLE: Stash Acquisition Beyond Life Expectancy.
 
 Time is the only resource which is not only isn't renewable, but you can't even get any more after you've exhausted the local supply --- you're just dead at that point.
+
+Minimalism in economics: "Your money is worth more if you have less of it"^[I.e. the marginal value of money to a rich person is not very high. I suppose the marginal value to civilization of money in the hands of the very poor is also not that good; if the money isn't doing more that keeping that person alive, then it's not growing civilization. Nevertheless, in the case of essentially every college-educated American, the epigram holds.].
 
 ### Programming
 
@@ -92,6 +98,10 @@ Needs are wants that, if you say "no" to them, you are also saying "no" by impli
 >
 > --- CGP Grey on [Cortex #62](https://www.relay.fm/cortex/62)
 
+> You don't miss your chance until you die.
+>
+> --- Nathan Zed
+
 ### On Thinking
 
 > Belief is no substitute for arithmetic.
@@ -109,6 +119,9 @@ See videos [What Do Stars Sound Like?](https://www.youtube.com/watch?v=TbWyuJYyb
 The world is much better modelled by the real numbers than by booleans.
 
 When I attempt a vague problem, my method has been: 1) ask some questions, then 2) try something.
+
+A delicious fruit starts with good soil.
+Likewise, clear knowledge starts with foundations.
 
 ### On Design
 
@@ -137,6 +150,11 @@ There are only two places to use strings, and they're both unvalidated input:
 you recieve a string, or
 someone gets a string from you.
 
+Every identifier has a scope wherin it is unique.
+If the scope is not mentioned in the specification of an id, confusion is going to happen.
+
 ### Miscellaneous
 
 The reason "No Man's Sky" failed^[i.e. its environments were boring] is because cryptography is hard.
+
+I remember a moment when I was six and was being taught how to raed clocks: I was so proud that I had figured out why it was called the "second" hand instead of the third hand. "It's because it counts seconds!"

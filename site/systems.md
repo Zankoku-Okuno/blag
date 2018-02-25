@@ -8,7 +8,7 @@ It includes the tools I use, the functions they perform, and areas that may need
 The purpose of a human life is to design a life it wants to live.
 
 A review is not just a list of accomplishments and shortcomings;
-it is an opportunity to choose what highlight.
+it is an opportunity to choose what to highlight.
 The quality of that choice will affect the quality of further action.
 
 If being an executive means not having anywhere else to pass the blame to, then the life of an executive is about making significant decisions, living with the outcomes, striving to make better choices, and not relying on luck or privilege.
@@ -20,7 +20,15 @@ As with any dependency, let's be sure we first have an abstract understanding of
 The specific tools, and also the roles they happen to fill, should be left until later.
 This way, we'll be less likely to overfit our wants to the status-quo.
 
-The method I'm going to use here employs analogy to biological systems.
+Undortunately, I'm not sure I have enough experience to be able to create a good theory.
+
+One possible theoretical framework is planning, reminders, and review (i.e. future, present, past).
+
+### Biological Analogy
+
+I'd like to use a method related to biological systems.
+Unfortunately, I don't know enough about some of theses systems, and the realm of memetic systems is even less well-understood.
+Nevertheless, here's a working list:
 
   * Biological Health (circulatory)
   * Reflection (prefrontal cortex)
@@ -35,9 +43,7 @@ The method I'm going to use here employs analogy to biological systems.
 
 There may be more, but this is what I have for now.
 
-### Applied
-
-The more I think about the following list, the more I think it's less theoretical.
+## Applied
 
   * reminders
       * waiting for robot to complete
@@ -61,7 +67,7 @@ The more I think about the following list, the more I think it's less theoretica
       * idea filtering
       * principle extraction
       * mistakes to avoid
-  * [notes](#Particular_Things_to_Keep_50)
+  * notes
       * morsels (quotes, puzzles, results, ...)
       * policy
       * writing drafts
@@ -73,10 +79,39 @@ The more I think about the following list, the more I think it's less theoretica
       * digital
       * physical space utilization
 
-The purpose of a human life is to design a life it wants to live.
-I want to live a life where my decisions become better.
-Therefore, the design of my life should enable my decisions to become conscious where they were previously forced on me by my environment and habits.
-Over time, those conscious decisions may become habits themselves, but hopefully better habits than before.
+### Particular Forms of Notes
+
+TODO: Writing tasks can't all be lumped together.
+A small reminder is very different from a monthly review is very different from working on an academic article.
+I therefore need to get some more experience of different writing forms and find out what kinds of systems might even be needed.
+For now, I'm just brute-forcing is with the blag.
+
+A number of writing- and academia-related stuff:
+
+  * approach, i.e. design methodology
+  * epigram or idea with citation
+  * study/analysis notes
+  * academic draft fragments
+  * opinion
+  * style guide
+  * hypotheses
+  * questions & proposed answers
+  * puzzles
+  * definitions/reference
+  * reflection
+
+## Current Systems
+
+**Focus Lists**: TODO
+
+**Yearly Themes**: Each year I write down questions that have come up in the past year.
+The questions so far have been big questions --- essentially different forms of how best to manage a human life --- which humanity has been trying to answer for thousands of years with no clear answer.
+I will likely not come to an answer myself --- at least not one I could convince anyone else of.
+Therefore, I try to find good hypotheses; even if I can't articulate a good answer, hopefully a reader will be able to ask that question effectively in their own situation.
+And anyways, asking the right questions is often far better than getting the right answers; Lorentz figured out the equations for how light works, but only when Einstein asked the right question did that answer make any sense.
+Note that, unlike the Yearly Themes discusses on Cortex, my approach is not a prospective or focusing tool, but as an analytical one.
+
+
 
 ## Current Tools
 
@@ -154,23 +189,11 @@ Over time, those conscious decisions may become habits themselves, but hopefully
     2. drafts technology or system,
     3. fundamentals of inscription.
 
-## Particular Forms of Notes
 
-TODO: Writing tasks can't all be lumped together.
-A small reminder is very different from a monthly review is very different from working on an academic article.
-I therefore need to get some more experience of different writing forms and find out what kinds of systems might even be needed.
-For now, I'm just brute-forcing is with the blag.
+## Notes on Tooling
 
-A number of writing- and academia-related stuff:
+Look at the "Things 3" app for a minimalist to-do system.
 
-  * approach, i.e. design methodology
-  * epigram or idea with citation
-  * study/analysis notes
-  * academic draft fragments
-  * opinion
-  * style guide
-  * hypotheses
-  * questions & proposed answers
-  * puzzles
-  * definitions/reference
-  * reflection
+Scheduled tasks vs. travel: notifications must handle using timezoned time vs. local time intelligently.
+
+The killer feature of to-do systems is to hide things that are not immediately actionable.
