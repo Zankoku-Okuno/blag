@@ -88,3 +88,7 @@ a.a = 'a'
 If you call `int` on a string that doesn't represent an integer, what happens?
 When I checked the official documentation in 2018, it wasn't specified.
 They had twenty-three years to get this right.
+
+This isn't an isolated problem, either.
+Plenty of standard library code could fail, but doesn't have specified error modes.
+TODO: make a short list of these.
