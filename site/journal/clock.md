@@ -47,6 +47,8 @@ what is local sky projection?
 
 [Astrolabe Manual](journal/Astrolabe_the_Missing_Manual.pdf)
 
+[Dark Sky API](https://darksky.net/dev) looks like a good place to get some weather info
+
 
 ### Stereographic Projection
 
