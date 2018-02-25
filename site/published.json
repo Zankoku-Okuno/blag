@@ -1,6 +1,11 @@
 { "Approach":
   [ { "title": "Browser Applications"
     , "href": "browser-applications.md"
+    , "when": { "published": "2017-11-12" }
+    }
+  , { "title": "FizzBuzz"
+    , "href": "programming-philosophy/fizzbuzz.md"
+    , "when": { "published": "2018-01-27" }
     }
   , { "title": "What is Programming?"
     , "href": "what-is-programming.md"
@@ -10,16 +15,37 @@
     }
   ]
 , "Journal":
-  [ { "title": "Well-Tuned Clock"
+  [ { "title": "Sir, We Have a System"
+    , "href": "systems.md"
+    , "when": { "published": "2017-12-14" }
+    }
+  , { "title": "How to Academic Writing"
+    , "href": "journal/how-to-academic-writing.md"
+    }
+  , { "title": "How to Organize Code"
+    , "href": "journal/organizing-code.md"
+    , "when": { "published": "2018-01-06" }
+    }
+  , { "title": "Well-Tuned Clock"
     , "href": "journal/clock.md"
+    , "when": { "published": "2017-11-23" }
     }
   , { "title": "Calendar Logging"
     , "href": "journal/calendar_log.md"
+    , "when": { "published": "2017-11-30" }
+    }
+  , { "title": "Custom Keyboard"
+    , "href": "keyboard.md"
     }
   ]
 , "Review":
-  [ { "title": "Yearly Review 12017"
+  [ { "title": "Yearly Review: 12017"
     , "href": "review/year-12017.md"
+    , "when": { "published": "2017-12-03" }
+    }
+  , { "title": "Monthly Review: 12018 Jan"
+    , "href": "review/month-12018-01.md"
+    , "when": { "published": "2018-02-03"}
     }
   ]
 , "Reference":
@@ -32,11 +58,35 @@
     }
   , { "title": "How to Markdown"
     , "href": "how-to-markdown.md"
+    , "when": { "published": "2017-11-03" }
+    }
+  , { "title": "How to LaTeX"
+    , "href": "notes/how-to-latex.md"
+    , "when": { "published": "2017-02-03" }
+    }
+  , { "title": "How to Haiku"
+    , "href": "how-to-haiku.md"
+    , "when": { "published": "2017-12-10" }
+    }
+  , { "title": "Help for Pen Addiction"
+    , "href": "notes/pens.md"
+    }
+  , { "title": "CLI Tools"
+    , "href": "notes/cli.md"
     }
   ]
 , "Curiosities":
-  [ { "title": "Geometry"
+  [ { "title": "Epigrams"
+    , "href": "epigrams.md"
+    }
+  , { "title": "Lexicon of Ideas"
+    , "href": "curio/fun-words.md"
+    }
+  , { "title": "Geometry"
     , "href": "curio/geometry.md"
+    }
+  , { "title" : "Color"
+    , "href": "curio/color.md"
     }
   , { "title": "Productivity"
     , "href": "curio/productivity.md"
@@ -49,6 +99,18 @@
     }
   , { "title": "Biology"
     , "href": "curio/biology.md"
+    }
+  , { "title": "Computer Science"
+    , "href": "curio/compsci.md"
+    }
+  , { "title": "Physics"
+    , "href": "curio/physics.md"
+    }
+  , { "title": "Linguistics"
+    , "href": "curio/linguistics.md"
+    }
+  , { "title": "Mathematics"
+    , "href": "curio/math.md"
     }
   ]
 }
