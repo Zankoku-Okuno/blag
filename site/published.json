@@ -16,6 +16,9 @@
     , "href": "systems.md"
     , "when": { "published": "2017-12-14" }
     }
+  , { "title": "My Interest in Japanese Aesthetics"
+    , "href": "journal/aesthetics.md"
+    }
   , { "title": "How to Academic Writing"
     , "href": "journal/how-to-academic-writing.md"
     }
