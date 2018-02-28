@@ -109,5 +109,8 @@
   , { "title": "Mathematics"
     , "href": "curio/math.md"
     }
+  , { "title": "Doodles"
+    , "href": "curio/doodles.md"
+    }
   ]
 }
