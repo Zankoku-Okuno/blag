@@ -5,7 +5,10 @@
     }
   , { "title": "FizzBuzz"
     , "href": "programming-philosophy/fizzbuzz.md"
-    , "when": { "published": "2018-01-27" }
+    , "when":
+        { "published": "2018-01-27"
+        , "updated": "2018-02-25"
+        }
     }
   ]
 , "Journal":
@@ -57,9 +60,16 @@
     , "href": "how-to-markdown.md"
     , "when": { "published": "2017-11-03" }
     }
+  , { "title": "How to LaTeX"
+    , "href": "notes/how-to-latex.md"
+    , "when": { "published": "2017-02-03" }
+    }
   , { "title": "How to Haiku"
     , "href": "how-to-haiku.md"
     , "when": { "published": "2017-12-10" }
+    }
+  , { "title": "Help for Pen Addiction"
+    , "href": "notes/pens.md"
     }
   , { "title": "CLI Tools"
     , "href": "notes/cli.md"
@@ -74,6 +84,9 @@
     }
   , { "title": "Geometry"
     , "href": "curio/geometry.md"
+    }
+  , { "title" : "Color"
+    , "href": "curio/color.md"
     }
   , { "title": "Productivity"
     , "href": "curio/productivity.md"
@@ -98,6 +111,9 @@
     }
   , { "title": "Mathematics"
     , "href": "curio/math.md"
+    }
+  , { "title": "Doodles"
+    , "href": "curio/doodles.md"
     }
   ]
 }
