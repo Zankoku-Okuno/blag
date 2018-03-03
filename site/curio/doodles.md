@@ -42,3 +42,8 @@ Too crude, too safe.
 The designs are growing.
 Each addition I made to this one led into needing more to get the balance right.
 I'm still making experiments, but they're more often successes... not always though.
+
+![Correct](curio/doodles/010.png)
+This one came out with a good color pallet, and it's faily big.
+The shapes are more known forms than experimentation.
+The feeling I get from this is that I just did it right, plain and simple.
