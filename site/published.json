@@ -10,6 +10,9 @@
         , "updated": "2018-02-25"
         }
     }
+  , { "title": "Artifact Spirit"
+    , "href": "artifact_spirit.md"
+    }
   ]
 , "Journal":
   [ { "title": "Sir, We Have a System"
