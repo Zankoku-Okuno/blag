@@ -12,3 +12,8 @@ This aside has _markdown_ in it.
 :::
 
 foo
+
+### Notation
+
+* Superscript: e^x^
+* Subscript: x~i~
