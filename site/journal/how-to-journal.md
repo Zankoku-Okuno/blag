@@ -18,3 +18,7 @@ The solution to a blank page is to write on it, and that kind of idea can go so 
 Between the blag and my daily journal, I'm doing a lot of writing, and it's ballooning my meta time taking care of it.
 One way I could think about it is that the journal is spontaneous writing practice, whereas the blag is directed writing practice.
 As such, I should be choosing goals for the blag, not simply garbage collecting everything into it, even if it "would make a good piece for the blag".
+
+> If all else fails, keep a notebook in your hands everyday.
+>
+> paraphrase from The Pen Addict podcast #288 ~45min in
