@@ -1,5 +1,8 @@
 { "Approach":
-  [ { "title": "Browser Applications"
+  [ { "title": "Artifact Spirit"
+    , "href": "artifact_spirit.md"
+    }
+  , { "title": "Browser Applications"
     , "href": "browser-applications.md"
     , "when": { "published": "2017-11-12" }
     }
@@ -9,9 +12,6 @@
         { "published": "2018-01-27"
         , "updated": "2018-02-25"
         }
-    }
-  , { "title": "Artifact Spirit"
-    , "href": "artifact_spirit.md"
     }
   ]
 , "Journal":
