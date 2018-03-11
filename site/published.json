@@ -2,6 +2,9 @@
   [ { "title": "Artifact Spirit"
     , "href": "artifact_spirit.md"
     }
+  , { "title": "Analogital"
+    , "href": "analogital.md"
+    }
   , { "title": "Browser Applications"
     , "href": "browser-applications.md"
     , "when": { "published": "2017-11-12" }
@@ -15,10 +18,7 @@
     }
   ]
 , "Journal":
-  [ { "title": "Analogital"
-    , "href": "journal/analogital.md"
-    }
-  , { "title": "Sir, We Have a System"
+  [ { "title": "Sir, We Have a System"
     , "href": "systems.md"
     , "when": { "published": "2017-12-14" }
     }

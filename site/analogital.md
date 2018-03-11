@@ -96,14 +96,17 @@ Other words for notebook include: journal, diary, scratch/note/memo pad, log boo
 The marketing doesn't matter: it's just a bunch of (for now) blank paper that can be carried around easily.
 Actually, for a while I was using loose-leaf paper: that can work, too.
 
-Review the notebook at least once in the morning and once in the evening, but don't get stressed out about it.
 It doesn't much matter what you write in it, just establish the habit and stay flexible about how you use it.
 Even a simple daily "what's on your mind?" prompt can spin-off anything: planning, introspection, creative practice, whatever you find yourself in need of.
 It may surprise you and be valuable in itself.
 
+Once you are ready to go to the next level, try to review it twice daily: once in the morning and once in the evening.
+Don't get stressed out about it, though: stress about your system will kill it faster than anything.
 
-I instituted a daily "writing" practice.
-I set the goal of writing something every morning and evening.
+
+  * daily to-do to avoid mindless consumption
+
+I instituted a twice-daily "writing" practice.
 It could be anything, just as long as I put pen to page.
 The content wouldn't be attempting quality, but would just be free expression without a worry for its future.
 
@@ -125,6 +128,8 @@ These kinds of tasks are "robot management": they only require a timer.
 
   * regular tasks: hard or flexible deadlines
   * one-off tasks: timescale to deadline matters
+
+  * remind myself to do my to-do list
 
 ### Minimizing Metawork
 
