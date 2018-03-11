@@ -137,6 +137,8 @@ Between the blag and my daily journal, I'm doing a lot of writing, and it's ball
 One way I could think about it is that the journal is spontaneous writing practice, whereas the blag is directed writing practice.
 As such, I should be choosing goals for the blag, not simply garbage collecting everything into it, even if it "would make a good piece for the blag".
 
+set a timer for making plans (see 12018 week 9 track)
+
 ### Defeating Block
 
 When you get that blank-page-stare-down feeling is when you know you need to write something quick and destroy that malpractice of hesitation.
@@ -146,6 +148,7 @@ In my writing practice, if one day I woke up and couldn't think of anything to w
 The solution to a blank page is to write on it, and an idea like that can go so many places that I should have no problem finding something to follow on from it.
 That's part of the lesson behind "the work is the inspiration".
 
+### Task Explosion
 
-
+  * it takes only a small phrase or sentence to add lifetimes of work to your queue (see 12018 week 10 track)
 
