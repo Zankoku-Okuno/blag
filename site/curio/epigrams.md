@@ -31,7 +31,7 @@ Belief is the assertion of a probability of truth.
 A semantics is an equivalence theory subject to the principle of compositionality[^compositionality].
 
 [^compositionality]: Principle of compositionality is that the meaning of a complex expression is determined by the meanings of its constituent subexpressions.
-The compatibility closure is fundamentally motivated by this principle.
+The compatible closure is fundamentally motivated by this principle.
 
 Composition is combining things in a way that allows you to further combine them.
 Further, it should be impossible to distinguish a combined object of interest from a primitive one without violating an abstraction boundary.
@@ -40,8 +40,6 @@ Further, it should be impossible to distinguish a combined object of interest fr
 ### Economy
 
 Online advertising is there to support sites that don't have enough investment from either the owners or the users.
-
-SABLE: Stash Acquisition Beyond Life Expectancy.
 
 Time is the only resource which is not only isn't renewable, but you can't even get any more after you've exhausted the local supply --- you're just dead at that point.
 
@@ -55,7 +53,7 @@ Minimalism in economics: "Your money is worth more if you have less of it"^[I.e.
 
 > Computer science is the most difficult branch of applied mathematics.
 >
-> Edsger Dijkstra
+> --- Edsger Dijkstra
 
 Molecular biology is the most difficult branch of computer science.
 
@@ -71,7 +69,7 @@ Visual design --- perhaps all of aesthetics --- is the the application of the th
 >
 > --- CGP Grey
 
-> The reason for getting out of be is to find a reason to get out of bed.
+> The reason for getting out of bed is to find a reason to get out of bed.
 >
 > --- John Green? TODO
 
@@ -120,6 +118,9 @@ The world is much better modelled by the real numbers than by booleans.
 
 When I attempt a vague problem, my method has been: 1) ask some questions, then 2) try something.
 
+A delicious fruit starts with good soil.
+Likewise, clear knowledge starts with foundations.
+
 ### On Design
 
 Every creation has a design implicit in it, intentional or not.
@@ -147,6 +148,11 @@ There are only two places to use strings, and they're both unvalidated input:
 you recieve a string, or
 someone gets a string from you.
 
+Every identifier has a scope wherin it is unique.
+If the scope is not mentioned in the specification of an id, confusion is going to happen.
+
 ### Miscellaneous
 
 The reason "No Man's Sky" failed^[i.e. its environments were boring] is because cryptography is hard.
+
+I remember a moment when I was six and was being taught how to raed clocks: I was so proud that I had figured out why it was called the "second" hand instead of the third hand. "It's because it counts seconds!"
