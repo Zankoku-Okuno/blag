@@ -1,5 +1,8 @@
 { "Approach":
-  [ { "title": "Browser Applications"
+  [ { "title": "Artifact Spirit"
+    , "href": "artifact_spirit.md"
+    }
+  , { "title": "Browser Applications"
     , "href": "browser-applications.md"
     , "when": { "published": "2017-11-12" }
     }
