@@ -2,6 +2,9 @@
   [ { "title": "Artifact Spirit"
     , "href": "artifact_spirit.md"
     }
+  , { "title": "Analogital"
+    , "href": "analogital.md"
+    }
   , { "title": "Browser Applications"
     , "href": "browser-applications.md"
     , "when": { "published": "2017-11-12" }
