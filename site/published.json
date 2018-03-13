@@ -13,6 +13,12 @@
         , "updated": "2018-02-25"
         }
     }
+  , { "title": "What is Programming?"
+    , "href": "what-is-programming.md"
+    }
+  , { "title": "On Type Systems"
+    , "href": "type-systems.md"
+    }
   ]
 , "Journal":
   [ { "title": "Sir, We Have a System"
