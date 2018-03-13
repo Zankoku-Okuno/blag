@@ -13,6 +13,9 @@
         , "updated": "2018-02-25"
         }
     }
+  , { "title": "Classification of Data Structures"
+    , "href": "data-structures.md"
+    }
   ]
 , "Journal":
   [ { "title": "Sir, We Have a System"
