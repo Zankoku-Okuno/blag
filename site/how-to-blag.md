@@ -9,6 +9,7 @@ These forms are there to distinguish the reason for existence of the post.
 
   * Approach: advice on design methods; I try to "take my own medicine" as it were
   * Journal: design notes for a particular artifact
+  * Review: where I review my life
   * Reference: notes to myself on the particular systems I've adopted
   * Curiosities: disorganized set of pointers to interesting problems &/ results
 
