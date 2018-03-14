@@ -2,12 +2,12 @@
   [ { "title": "Artifact Spirit"
     , "href": "artifact_spirit.md"
     }
+  , { "title": "Abstraction"
+    , "href": "programming-philosophy/abstraction.md"
+    }
   , { "title": "Browser Applications"
     , "href": "browser-applications.md"
     , "when": { "published": "2017-11-12" }
-    }
-  , { "title": "Abstraction"
-    , "href": "programming-philosophy/abstraction.md"
     }
   , { "title": "FizzBuzz"
     , "href": "programming-philosophy/fizzbuzz.md"
