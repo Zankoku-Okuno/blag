@@ -1,11 +1,17 @@
 { "Approach":
-  [ { "title": "Browser Applications"
+  [ { "title": "Artifact Spirit"
+    , "href": "artifact_spirit.md"
+    }
+  , { "title": "Browser Applications"
     , "href": "browser-applications.md"
     , "when": { "published": "2017-11-12" }
     }
   , { "title": "FizzBuzz"
     , "href": "programming-philosophy/fizzbuzz.md"
-    , "when": { "published": "2018-01-27" }
+    , "when":
+        { "published": "2018-01-27"
+        , "updated": "2018-02-25"
+        }
     }
   ]
 , "Journal":
@@ -36,6 +42,9 @@
   [ { "title": "Yearly Review: 12017"
     , "href": "review/year-12017.md"
     , "when": { "published": "2017-12-03" }
+    }
+  , { "title": "Monthly Review: 12018 Feb"
+    , "href": "review/month-12018-02.md"
     }
   , { "title": "Monthly Review: 12018 Jan"
     , "href": "review/month-12018-01.md"
@@ -74,40 +83,19 @@
   ]
 , "Curiosities":
   [ { "title": "Epigrams"
-    , "href": "epigrams.md"
+    , "href": "curio/epigrams.md"
     }
   , { "title": "Lexicon of Ideas"
     , "href": "curio/fun-words.md"
     }
-  , { "title": "Geometry"
-    , "href": "curio/geometry.md"
-    }
   , { "title" : "Color"
     , "href": "curio/color.md"
     }
-  , { "title": "Productivity"
-    , "href": "curio/productivity.md"
-    }
-  , { "title": "Rationalism"
-    , "href": "curio/rationalism.md"
-    }
-  , { "title": "Logic, Belief, Knowledge"
-    , "href": "curio/logic-belief-knowledge.md"
-    }
-  , { "title": "Biology"
+  , { "title": "Except Ants"
     , "href": "curio/biology.md"
     }
-  , { "title": "Computer Science"
-    , "href": "curio/compsci.md"
-    }
-  , { "title": "Physics"
-    , "href": "curio/physics.md"
-    }
-  , { "title": "Linguistics"
-    , "href": "curio/linguistics.md"
-    }
-  , { "title": "Mathematics"
-    , "href": "curio/math.md"
+  , { "title": "Doodles"
+    , "href": "curio/doodles.md"
     }
   ]
 }

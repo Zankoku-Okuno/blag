@@ -19,14 +19,16 @@ Juvenoia --- English neologism: an exaggerated fear of the effects of social cha
 
 Oblaat --- from Dutch through Japanese: transparent, tasteless, odorless covering.
 
-Mottainai --- from Japanese "what a waste": an expression conveying regret of waste.
+Mottainai --- from Japanese "what a waste": a common expression conveying regret of waste.
     Used to refer not only to physical waste (resources), but also thought patters that give rise to wasteful action.
     The way I see it, one person's waste directly contributes to other's suffering, ans so is impious.
     Further, even inanimate objects have a spirit, and so waste of them is disrespectful of the artifact.
 
-Clusterfumble --- Enlgish portmanteau: a disorganized assortment of tools all oriented towared a purpose, but which is cumbersome to employ and may not even be effective.
+Clusterfumble --- English portmanteau: disorganized collection of techniques &/ tools all oriented towards a purpose, but which is cumbersome to employ and may not even be effective.
     E.g. ["clusterfumble of digital devices"](http://www.utilware.com/gsd3.html)
 
 Cognoscente (pl. cognoscenti) --- from Italian: Someone possessing superior or specialized knowledge in a particular field.
 
-fromever: from forever
+from'ever --- English contraction: from forever
+
+SABLE --- English acronym: "Stash Acquisition Beyond Life Expectancy".

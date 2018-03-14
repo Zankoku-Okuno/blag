@@ -393,10 +393,3 @@ Hover for names of colors (where available).
 
 
 [Wiki](https://en.wikipedia.org/wiki/Tertiary_color#Tertiary-_and_quaternary-color_terms) has a list of color terms down to quarternary colors.
-
-## Color Categories in Langauge
-
-There are some papers that use artificaial agents to play a categorization game to culturally evolve color categories.
-
-  * [Cultural route to the emergence of linguistic categories](curio/cultural-route-to-linguistic-categories.pdf) and [supporting info](curio/cultural-route-to-linguistic-categories-supportinginfo.pdf)
-  * [On the origin of the hierarchy of color names](curio/hierarchy-of-color-names-origin.pdf) and [supporting info](curio/hierarchy-of-color-names-origin-supportinginfo.pdf)
