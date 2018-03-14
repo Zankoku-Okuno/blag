@@ -71,6 +71,9 @@
     , "href": "how-to-haiku.md"
     , "when": { "published": "2017-12-10" }
     }
+  , { "title": "How to Story"
+    , "href": "notes/how-to-story.md"
+    }
   , { "title": "Help for Pen Addiction"
     , "href": "notes/pens.md"
     }
