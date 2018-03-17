@@ -13,14 +13,17 @@
     , "href": "programming-philosophy/fizzbuzz.md"
     , "when":
         { "published": "2018-01-27"
-        , "updated": "2018-02-25"
+        , "updated": [ "2018-02-25" ]
         }
     }
   ]
 , "Journal":
   [ { "title": "Sir, We Have a System"
     , "href": "systems.md"
-    , "when": { "published": "2017-12-14" }
+    , "when":
+        { "published": "2017-12-14"
+        , "updated": [ "2018-03-17" ]
+        }
     }
   , { "title": "How to Academic Writing"
     , "href": "journal/how-to-academic-writing.md"
