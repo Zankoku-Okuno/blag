@@ -27,6 +27,7 @@ executable okuno-blag-server
     exceptions >=0.3,
     http-media ==0.7.*,
     http-types ==0.12.*,
+    mime-types ==0.1.*,
     path ==0.6.*,
     text ==1.*,
     wai ==3.*,

@@ -20,6 +20,7 @@ import qualified Data.Text as T
 import qualified Data.Text.Encoding as BS
 import Data.Aeson
 import Data.Aeson.Types (typeMismatch)
+import Network.Mime
 
 import Path
 
@@ -68,6 +69,7 @@ accessLogLn req = putErrLn $ concat [show method, " ", show path, " ", show acce
 
 data Resource
     = Article (Path Rel File)
+    | Static (Path Rel File)
 -- data Action -- method and client's parameters
 -- data Client -- authentication
 -- data ContentType -- already given by http-types[sp?]
@@ -75,6 +77,7 @@ data Resource
 whatIsWanted :: Request -> Maybe Resource
 whatIsWanted request = case pathInfo request of
     ("article" : path) -> Article <$> munchToRelFile path
+    ("static" : path) -> Static <$> munchToRelFile path
     _ -> Nothing
 
 generateResponse :: AppConfig -> Resource -> [Quality MediaType] -> IO Response
@@ -83,10 +86,17 @@ generateResponse AppConfig{..} (Article relfile) accept = do
     where
     articleConfig = StaticServerConfig
         { serveDir = articleDir
-        , extensions =
-            [ ("text/html", "md")
+        , addExtensions = Just
+            [ ("text/markdown", "md")
             , ("text/plain; charset=UTF-8", "md")
             ]
+        }
+generateResponse AppConfig{..} (Static relfile) accept = do
+    serveStaticFile staticConfig relfile accept
+    where
+    staticConfig = StaticServerConfig
+        { serveDir = staticDir
+        , addExtensions = Nothing
         }
 
 
@@ -94,11 +104,12 @@ generateResponse AppConfig{..} (Article relfile) accept = do
 
 data StaticServerConfig = StaticServerConfig
     { serveDir :: Path Abs Dir
-    , extensions :: [(MediaType, String)]
+    , addExtensions :: Maybe [(MediaType, String)]
     }
 
 serveStaticFile :: StaticServerConfig -> Path Rel File -> [Quality MediaType] -> IO Response
-serveStaticFile StaticServerConfig{..} fileSubpath acceptMedia =
+serveStaticFile StaticServerConfig{..} fileSubpath acceptMedia = do
+    let extensions = fromMaybe fakeExts addExtensions
     case mapQualityWithKey extensions acceptMedia of
         Just (contentType, extension) -> do
             filePath <- (serveDir </>) <$> fileSubpath <.> extension
@@ -111,6 +122,8 @@ serveStaticFile StaticServerConfig{..} fileSubpath acceptMedia =
                     Nothing
             else pure response404 -- FIXME un-hardcode
         Nothing -> pure $ response406 (fst <$> extensions) -- FIXME un-hardcode
+    where
+    fakeExts = [(fromJust . parseAccept $ defaultMimeLookup (T.pack $ fromRelFile fileSubpath), "")]
 
 response404 :: Response
 response404 = responseLBS
