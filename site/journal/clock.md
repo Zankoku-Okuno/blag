@@ -82,7 +82,7 @@ With a touch of simplification, we find $r = {R\cos\theta \over 1 + \sin\theta}$
 ### Ecliptic
 
 In the left of the figure, a cross-section of the Earth is given, with the equator in red, and Tropics of Cancer and Capricorn in blue and green respectively.
-The ecliptic is defined[^more properly, the tropics are defined by the observed ecliptic, but math don't care] as a (particular) great circle osculating the two tropics.
+The ecliptic is defined^[more properly, the tropics are defined by the observed ecliptic, but math don't care] as a (particular) great circle osculating the two tropics.
 
 <svg width=400 height=200 viewBox="-1.1 -1.1 4.4 2.2">
     <circle cx=0 cy=0 r=1 fill=none stroke=#000 stroke-width=0.02 />
@@ -124,7 +124,7 @@ An astrolabe (or astronomical clock)'s perimeter is given by a tropic (which one
 </svg>
 
 Given $R = \lVert\overline{OP}\rVert$, $\Delta c = \lVert\overline{OO'}\rVert$, and $\phi = \angle IO'P$, find $\theta = \angle IOP$.
-From [Solution of triangles](https://en.wikipedia.org/wiki/Solution_of_triangles#Two_sides_and_non-included_angle_given_.28SSA.29), I see that I have a side-side-angle situation[^Good job mathematicians for avoiding "angle-side-side"].
+From [Solution of triangles](https://en.wikipedia.org/wiki/Solution_of_triangles#Two_sides_and_non-included_angle_given_.28SSA.29), I see that I have a side-side-angle situation^[Good job mathematicians for avoiding "angle-side-side"].
 Let $\alpha = \angle O'OP$ and $\gamma = \angle O'PO$.
 
 Read off that $\sin\gamma = {\Delta c \over R} \sin\phi$ and $\alpha = {\tau \over 2} - \phi - \gamma = {\tau \over 2} - \theta$.
