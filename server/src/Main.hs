@@ -1,3 +1,4 @@
+{-#LANGUAGE FlexibleInstances #-}
 module Main where
 
 import Network.Wai
@@ -17,13 +18,26 @@ import qualified Data.ByteString.Lazy as LBS
 import Data.Text (Text)
 import qualified Data.Text as T
 import qualified Data.Text.Encoding as BS
+import Data.Aeson
+import Data.Aeson.Types (typeMismatch)
 
 import Path
 
 
 ------------------ Server ------------------
 
-app :: Path Abs Dir -> Application
+data AppConfig = AppConfig
+    { articleDir :: Path Abs Dir
+    , staticDir :: Path Abs Dir
+    }
+instance FromJSON AppConfig where
+    parseJSON (Object v) = do
+        articleDir <- parseJSON =<< v .: "articleDir"
+        staticDir <- parseJSON =<< v .: "staticDir"
+        pure AppConfig{..}
+    parseJSON invalid = typeMismatch "Coord" invalid
+
+app :: AppConfig -> Application
 app config request respond = do
     accessLogLn request
     let accept = fromMaybe [] $ parseQuality =<< lookup hAccept (requestHeaders request)
@@ -34,11 +48,13 @@ app config request respond = do
 
 main :: IO ()
 main = do
-    articleDir <- getArgs >>= \case
-        [articleDir] -> parseAbsDir articleDir
-        _ -> putErrLn "Usage: okuno-blag-server <article dir>" >> exitFailure
+    config <- getArgs >>= \case
+        [configJson] -> eitherDecodeFileStrict' configJson >>= \case
+            Right config -> pure config
+            Left err -> putErrLn "Invalid configuration:" >> putErrLn err >> exitFailure
+        _ -> putErrLn "Usage: okuno-blag-server <config file>" >> exitFailure
     putStrLn $ "http://localhost:8080/"
-    run 8080 (app articleDir)
+    run 8080 (app config)
 
 accessLogLn req = putErrLn $ concat [show method, " ", show path, " ", show accept]
     where
@@ -61,14 +77,14 @@ whatIsWanted request = case pathInfo request of
     ("article" : path) -> Article <$> munchToRelFile path
     _ -> Nothing
 
-generateResponse :: Path Abs Dir -> Resource -> [Quality MediaType] -> IO Response
-generateResponse articleDir (Article relfile) accept = do
+generateResponse :: AppConfig -> Resource -> [Quality MediaType] -> IO Response
+generateResponse AppConfig{..} (Article relfile) accept = do
     serveStaticFile articleConfig relfile accept
     where
     articleConfig = StaticServerConfig
         { serveDir = articleDir
         , extensions =
-            [ ("text/markdown; charset=UTF-8", "md")
+            [ ("text/html", "md")
             , ("text/plain; charset=UTF-8", "md")
             ]
         }
@@ -85,7 +101,6 @@ serveStaticFile :: StaticServerConfig -> Path Rel File -> [Quality MediaType] ->
 serveStaticFile StaticServerConfig{..} fileSubpath acceptMedia =
     case mapQualityWithKey extensions acceptMedia of
         Just (contentType, extension) -> do
-            putErrLn $ show (contentType, extension)
             filePath <- (serveDir </>) <$> fileSubpath <.> extension
             exists <- doesFileExist (fromAbsFile filePath)
             if exists
