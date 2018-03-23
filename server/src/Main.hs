@@ -7,6 +7,7 @@ import Network.HTTP.Media
 import Network.Wai.Handler.Warp (run)
 
 import Data.Maybe
+import Text.Hamlet
 import System.Environment
 import System.Exit
 import System.Directory
@@ -17,10 +18,12 @@ import qualified Data.ByteString as BS
 import qualified Data.ByteString.Lazy as LBS
 import Data.Text (Text)
 import qualified Data.Text as T
+import qualified Data.Text.Lazy.IO as LT
 import qualified Data.Text.Encoding as BS
 import Data.Aeson
 import Data.Aeson.Types (typeMismatch)
 import Network.Mime
+import Text.Blaze.Html.Renderer.Utf8 (renderHtmlBuilder)
 
 import Path
 
@@ -82,13 +85,36 @@ whatIsWanted request = case pathInfo request of
 
 generateResponse :: AppConfig -> Resource -> [Quality MediaType] -> IO Response
 generateResponse AppConfig{..} (Article relfile) accept = do
-    serveStaticFile articleConfig relfile accept
+    articleFile <- (articleDir </>) <$> relfile <.> "md"
+    exists <- doesFileExist (fromAbsFile articleFile)
+    if exists
+    then do
+        let negotiated = mapQuality mimetypes accept
+            render = fromMaybe (\_ -> pure $ response406 (fst <$> mimetypes)) negotiated
+        render articleFile
+    else pure response404 -- FIXME un-hardcode
     where
-    articleConfig = StaticServerConfig
+    mimetypes = 
+        [ ("text/html", asHtml)
+        , ("text/markdown", asMarkdown)
+        ]
+    asMarkdown articleFile =
+        pure $ responseFile
+            status200
+            [("Content-Type", "text/markdown; charset=utf-8")]
+            (fromAbsFile articleFile)
+            Nothing
+    asHtml articleFile = do
+        articleText <- LT.readFile (fromAbsFile articleFile)
+        pure $ responseBuilder
+            status200
+            [("Content-Type", "text/html; charset=utf-8")] -- FIXME set content-length
+            (renderHtmlBuilder $ $(hamletFile "src/article.hamlet") ())
+    asMarkdownConfig = StaticServerConfig
         { serveDir = articleDir
         , addExtensions = Just
             [ ("text/markdown", "md")
-            , ("text/plain; charset=UTF-8", "md")
+            , ("text/plain; charset=utf-8", "md")
             ]
         }
 generateResponse AppConfig{..} (Static relfile) accept = do

@@ -22,6 +22,7 @@ executable okuno-blag-server
   build-depends:
     aeson ==1.3.*,
     base >=4.9 && <5,
+    blaze-html ==0.9.*,
     bytestring ==0.10.*,
     directory ==1.*,
     exceptions >=0.3,
@@ -29,6 +30,7 @@ executable okuno-blag-server
     http-types ==0.12.*,
     mime-types ==0.1.*,
     path ==0.6.*,
+    shakespeare ==2.0.*,
     text ==1.*,
     wai ==3.*,
     warp ==3.*
@@ -37,6 +39,7 @@ executable okuno-blag-server
   default-extensions:
     LambdaCase,
     OverloadedStrings,
+    QuasiQuotes,
     RecordWildCards,
     TemplateHaskell,
     ViewPatterns
