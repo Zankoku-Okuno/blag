@@ -1,4 +1,4 @@
-{-#LANGUAGE FlexibleInstances #-}
+{-#LANGUAGE FlexibleInstances, FlexibleContexts #-}
 module Main where
 
 import Network.Wai
@@ -6,6 +6,8 @@ import Network.HTTP.Types
 import Network.HTTP.Media
 import Network.Wai.Handler.Warp (run)
 
+import qualified Data.HashMap.Strict as HMap
+import qualified Data.Vector as Vec
 import Data.Maybe
 import Text.Hamlet
 import System.Environment
@@ -31,34 +33,43 @@ import Path
 ------------------ Server ------------------
 
 data AppConfig = AppConfig
-    { articleDir :: Path Abs Dir
+    { articleDb :: Path Abs File
+    , articleDir :: Path Abs Dir
     , staticDir :: Path Abs Dir
     }
 instance FromJSON AppConfig where
     parseJSON (Object v) = do
+        articleDb <- parseJSON =<< v .: "articleDb"
         articleDir <- parseJSON =<< v .: "articleDir"
         staticDir <- parseJSON =<< v .: "staticDir"
         pure AppConfig{..}
-    parseJSON invalid = typeMismatch "Coord" invalid
+    parseJSON invalid = typeMismatch "AppConfig" invalid
 
-app :: AppConfig -> Application
-app config request respond = do
-    accessLogLn request
-    let accept = fromMaybe [] $ parseQuality =<< lookup hAccept (requestHeaders request)
-    case whatIsWanted request of
-        Nothing -> respond response404
-        Just resource -> do
-            respond =<< generateResponse config resource accept
+bootApp :: AppConfig -> IO Application
+bootApp config@AppConfig{..} = do
+    articleDb <- eitherDecodeFileStrict' (fromAbsFile articleDb) >>= \case
+            Right articles -> pure articles
+            Left err -> putErrLn (concat ["Invalid article db (", show articleDb, "):"]) >> putErrLn err >> exitFailure
+    let resources = whatIsWanted articleDb
+    pure $ \request respond -> do
+        accessLogLn request
+        let accept = fromMaybe [] $ parseQuality =<< lookup hAccept (requestHeaders request)
+        case resources request of
+            Just resource -> do
+                response <- generateResponse config articleDb resource accept
+                respond response
+            Nothing -> respond response404
 
 main :: IO ()
 main = do
     config <- getArgs >>= \case
         [configJson] -> eitherDecodeFileStrict' configJson >>= \case
             Right config -> pure config
-            Left err -> putErrLn "Invalid configuration:" >> putErrLn err >> exitFailure
+            Left err -> putErrLn (concat ["Invalid configuration (", configJson, "):"]) >> putErrLn err >> exitFailure
         _ -> putErrLn "Usage: okuno-blag-server <config file>" >> exitFailure
+    app <- bootApp config
     putStrLn $ "http://localhost:8080/"
-    run 8080 (app config)
+    run 8080 app
 
 accessLogLn req = putErrLn $ concat [show method, " ", show path, " ", show accept]
     where
@@ -72,19 +83,34 @@ accessLogLn req = putErrLn $ concat [show method, " ", show path, " ", show acce
 
 data Resource
     = Article (Path Rel File)
+    | Index
     | Static (Path Rel File)
 -- data Action -- method and client's parameters
 -- data Client -- authentication
 -- data ContentType -- already given by http-types[sp?]
 
-whatIsWanted :: Request -> Maybe Resource
-whatIsWanted request = case pathInfo request of
-    ("article" : path) -> Article <$> munchToRelFile path
+whatIsWanted :: ArticleDb -> Request -> Maybe Resource
+whatIsWanted articleDb request = case pathInfo request of
+    [] -> Just Index
+    ("article" : path) -> Article <$> munchToRelFile path -- FIXME use articleDB articles instead of raw file path
     ("static" : path) -> Static <$> munchToRelFile path
     _ -> Nothing
 
-generateResponse :: AppConfig -> Resource -> [Quality MediaType] -> IO Response
-generateResponse AppConfig{..} (Article relfile) accept = do
+generateResponse :: AppConfig -> ArticleDb -> Resource -> [Quality MediaType] -> IO Response
+generateResponse AppConfig{..} ArticleDb{..} Index accept = do
+    let negotiated = mapQuality mimetypes accept
+        render = fromMaybe (pure $ response406 (fst <$> mimetypes)) negotiated
+    render
+    where
+    mimetypes =
+        [ ("text/html", asHtml)
+        ]
+    asHtml = do
+        pure $ responseBuilder
+            status200
+            [("Content-Type", "text/html; charset=utf-8")] -- FIXME set content-length
+            (renderHtmlBuilder $ $(hamletFile "src/index.hamlet") ())
+generateResponse AppConfig{..} _ (Article relfile) accept = do
     articleFile <- (articleDir </>) <$> relfile <.> "md"
     exists <- doesFileExist (fromAbsFile articleFile)
     if exists
@@ -110,20 +136,43 @@ generateResponse AppConfig{..} (Article relfile) accept = do
             status200
             [("Content-Type", "text/html; charset=utf-8")] -- FIXME set content-length
             (renderHtmlBuilder $ $(hamletFile "src/article.hamlet") ())
-    asMarkdownConfig = StaticServerConfig
-        { serveDir = articleDir
-        , addExtensions = Just
-            [ ("text/markdown", "md")
-            , ("text/plain; charset=utf-8", "md")
-            ]
-        }
-generateResponse AppConfig{..} (Static relfile) accept = do
+generateResponse AppConfig{..} _ (Static relfile) accept = do
     serveStaticFile staticConfig relfile accept
     where
     staticConfig = StaticServerConfig
         { serveDir = staticDir
         , addExtensions = Nothing
         }
+
+------------------ Domain Logic ------------------
+
+data ArticleDb = ArticleDb
+    { articles :: [ArticleMetadata]
+    } deriving (Show)
+instance FromJSON ArticleDb where
+    parseJSON (Object v) = do
+        articles <- (concat $) <$> (parseCategory `mapM` HMap.toList v)
+        pure $ ArticleDb{..}
+        where
+        parseCategory (k, Array v) = do
+            preArticles <- parseJSON `mapM` Vec.toList v
+            pure $ ($ k) <$> preArticles
+        parseCategory (_, invalid) = typeMismatch "[ArticleMetadata]" invalid
+    parseJSON invalid = typeMismatch "ArticleDb" invalid
+
+data ArticleMetadata = ArticleMetadata
+    { articleTitle :: Text
+    , articleHref :: Path Rel File
+    , articleCategory :: Text
+    -- , whenPublished :: Maybe Date
+    -- , whenUpdated :: [Date]
+    } deriving (Show)
+instance FromJSON (Text -> ArticleMetadata) where
+    parseJSON (Object v) = do
+        articleTitle <- v .: "title"
+        articleHref <- parseJSON =<< v .: "href"
+        pure $ \articleCategory -> ArticleMetadata{..}
+    parseJSON invalid = typeMismatch "ArticleMetadata" invalid
 
 
 ------------------ Prebuilt Applications ------------------
