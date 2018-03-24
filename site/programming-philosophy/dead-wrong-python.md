@@ -141,3 +141,13 @@ When I checked the official documentation in 2018, it wasn't specified.
 This isn't an isolated problem, either.
 Plenty of standard library functions have undocumented failure modes.
 They had twenty-three years to get basic technical writing right.
+
+
+## Conclusion
+
+TODO
+
+failure to understand semantics: 
+  * mismatch between user and buitin things
+  * too much mutable state (destructive update) without safeguards
+  * lack of detail in description/specification
