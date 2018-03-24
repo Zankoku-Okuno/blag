@@ -46,6 +46,9 @@
   , { "title": "Custom Keyboard"
     , "href": "keyboard.md"
     }
+  , { "title": "Dead Wrong Python"
+    , "href": "programming-philosophy/dead-wrong-python.md"
+    }
   ]
 , "Review":
   [ { "title": "Yearly Review: 12017"
