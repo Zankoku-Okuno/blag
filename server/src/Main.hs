@@ -35,12 +35,14 @@ import Path
 data AppConfig = AppConfig
     { articleDb :: Path Abs File
     , articleDir :: Path Abs Dir
+    , httpPort :: Int
     , staticDir :: Path Abs Dir
     }
 instance FromJSON AppConfig where
     parseJSON (Object v) = do
         articleDb <- parseJSON =<< v .: "articleDb"
         articleDir <- parseJSON =<< v .: "articleDir"
+        httpPort <- v .: "httpPort"
         staticDir <- parseJSON =<< v .: "staticDir"
         pure AppConfig{..}
     parseJSON invalid = typeMismatch "AppConfig" invalid
@@ -62,14 +64,14 @@ bootApp config@AppConfig{..} = do
 
 main :: IO ()
 main = do
-    config <- getArgs >>= \case
+    config@AppConfig{..} <- getArgs >>= \case
         [configJson] -> eitherDecodeFileStrict' configJson >>= \case
             Right config -> pure config
             Left err -> putErrLn (concat ["Invalid configuration (", configJson, "):"]) >> putErrLn err >> exitFailure
         _ -> putErrLn "Usage: okuno-blag-server <config file>" >> exitFailure
     app <- bootApp config
-    putStrLn $ "http://localhost:8080/"
-    run 8080 app
+    putStrLn $ "http://localhost:" ++ show httpPort
+    run httpPort app
 
 accessLogLn req = putErrLn $ concat [show method, " ", show path, " ", show accept]
     where
