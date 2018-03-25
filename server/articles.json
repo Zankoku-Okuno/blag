@@ -9,6 +9,9 @@
     , "href": "browser-applications"
     , "when": { "published": "2017-11-12" }
     }
+  , { "title": "References"
+    , "href": "programming-philosophy/references"
+    }
   , { "title": "FizzBuzz"
     , "href": "programming-philosophy/fizzbuzz"
     , "when":
