@@ -1,0 +1,113 @@
+{ "Approach":
+  [ { "title": "Artifact Spirit"
+    , "href": "artifact_spirit"
+    }
+  , { "title": "Abstraction"
+    , "href": "programming-philosophy/abstraction"
+    }
+  , { "title": "Browser Applications"
+    , "href": "browser-applications"
+    , "when": { "published": "2017-11-12" }
+    }
+  , { "title": "FizzBuzz"
+    , "href": "programming-philosophy/fizzbuzz"
+    , "when":
+        { "published": "2018-01-27"
+        , "updated": [ "2018-02-25" ]
+        }
+    }
+  ]
+, "Journal":
+  [ { "title": "Sir, We Have a System"
+    , "href": "systems"
+    , "when":
+        { "published": "2017-12-14"
+        , "updated": [ "2018-03-17" ]
+        }
+    }
+  , { "title": "How to Academic Writing"
+    , "href": "journal/how-to-academic-writing"
+    }
+  , { "title": "How to Organize Code"
+    , "href": "journal/organizing-code"
+    , "when": { "published": "2018-01-06" }
+    }
+  , { "title": "Systems for Conlanging"
+    , "href": "journal/conlanging"
+    }
+  , { "title": "Well-Tuned Clock"
+    , "href": "journal/clock"
+    , "when": { "published": "2017-11-23" }
+    }
+  , { "title": "Calendar Logging"
+    , "href": "journal/calendar_log"
+    , "when": { "published": "2017-11-30" }
+    }
+  , { "title": "Custom Keyboard"
+    , "href": "keyboard"
+    }
+  ]
+, "Review":
+  [ { "title": "Yearly Review: 12017"
+    , "href": "review/year-12017"
+    , "when": { "published": "2017-12-03" }
+    }
+  , { "title": "Seasonal Review: Winter 12018"
+    , "href": "review/season-12018a-winter"
+    }
+  , { "title": "Monthly Review: 12018 Feb"
+    , "href": "review/month-12018-02"
+    }
+  , { "title": "Monthly Review: 12018 Jan"
+    , "href": "review/month-12018-01"
+    , "when": { "published": "2018-02-03"}
+    }
+  ]
+, "Reference":
+  [ { "title": "How to Blag"
+    , "href": "how-to-blag"
+    , "when":
+        { "published": "2017-11-02"
+        , "updated": []
+        }
+    }
+  , { "title": "How to Markdown"
+    , "href": "how-to-markdown"
+    , "when": { "published": "2017-11-03" }
+    }
+  , { "title": "How to LaTeX"
+    , "href": "notes/how-to-latex"
+    , "when": { "published": "2017-02-03" }
+    }
+  , { "title": "How to Haiku"
+    , "href": "how-to-haiku"
+    , "when": { "published": "2017-12-10" }
+    }
+  , { "title": "How to Story"
+    , "href": "notes/how-to-story"
+    }
+  , { "title": "Help for Pen Addiction"
+    , "href": "notes/pens"
+    }
+  , { "title": "CLI Tools"
+    , "href": "notes/cli"
+    }
+  ]
+, "Curiosities":
+  [ { "title": "Epigrams"
+    , "href": "curio/epigrams"
+    }
+  , { "title": "Lexicon of Ideas"
+    , "href": "curio/fun-words"
+    }
+  , { "title" : "Color"
+    , "href": "curio/color"
+    }
+  , { "title": "Except Ants"
+    , "href": "curio/biology"
+    }
+  , { "title": "Doodles"
+    , "href": "curio/doodles"
+    }
+  ]
+}
