@@ -18,8 +18,8 @@ I think I am getting good experience in managing my projects, and that comes not
 ### Journaling
 
 Let's start with the largest new system by weight: journaling.
-Starting at the end of Janurary, I began a twice-daily journal regimen and completed 96 out of 116 (82%) of planned entries.
-That may not sound great, but bear in ming that I have never before kept a journal for more than two days, with the exception of my 2008 Japan travel diary, which only lasted half the planned time.
+Starting at the end of January, I began a twice-daily journal regimen and completed 96 out of 116 (82%) of planned entries.
+That may not sound great, but bear in mind that I have never before kept a journal for more than two days, with the exception of my 2008 Japan travel diary, which only lasted half the planned time.
 There was no plan for the content, except that should be written without a plan for the future of the content.
 
 The journal does seem to be flexing my writing voice more.
@@ -29,13 +29,13 @@ Despite having no hopes for the content, several entries have ideas (or the enti
 
 At the start, I expected more benefit to my fiction writing, but that doesn't seem like it's going to happen any time soon.
 To be honest, a twice-daily rate turned out to be a chore, especially with the relatively rigid schedule.
-In the last three weeks, the entry schedule slipped noticibly.
-I can't rule out that I may have partially given up after a week averaging only one entry a day.
-It is possible that that drop may have been caused by an increase in other forms of system.
-Weekends are particularly difficult as tehre is no set timeframe---either to start or to end.
+In the last three weeks, the entry schedule slipped noticeably.
+I can't rule out that I may have given up in part after a week averaging only one entry a day.
+It is possible that the drop may have been caused by an increase in other forms of system.
+Weekends are particularly difficult as there is no set timeframe---either to start or to end.
 
 My plan for the next journal is to be lighter, more flexible, and more forgiving.
-The goal will be to hit between 80% and 100% one entry per day, and lower than 80% will have trigger additional focus rather than despair.
+The goal will be to hit have 80-100% success at one entry per day, and lower than 80% will have trigger additional focus rather than despair.
 I've also placed a list of prompts at the front of my journal for reference if I get stuck.
 Finally, for weekend entries I've set a reminder, and will set a timer within which the bulk of entry will need to be made or else abandoned.
 
@@ -55,7 +55,7 @@ A particular success is that I now have a place for checklists.
 
 There are improvements that could be made to the physical notebook.
 The lack of an effective pen loop means I carry my pens separately.
-Even though I cycle through many pens, it is sometimes useful to store one pen temporarily when I have to pick u pand move i nthe middle of some writing.
+Even though I cycle through many pens, it is sometimes useful to store one pen temporarily when I have to pick up and move in the middle of some writing.
 The single bookmark that comes with the notebook is insufficient for the three inserts.
 
 ### Review
@@ -65,7 +65,7 @@ At first that was reasonable: if you're like me^[yes, I am applying the Copernic
 Within a few weeks, it was clear that I was spending too much of my time in garbage collection.
 
 The obvious upside of a review system is that I am no longer losing notes.
-It words something like the having a small email inbox.
+It helps my mental state in much the same way as having only a few things in my email inbox.
 I no longer have to search through old notes to find what I'm interested in, which means I'm much more likely to follow up on ideas.
 
 The downside is that it takes time to do garbage collection.
@@ -93,8 +93,10 @@ Mostly, I am using weekly and monthly timescales, though technically I do have a
 More often than not, the items in my focus are checked off.
 My January focus was stunningly successful: once I had found my research question, I did zero programming or academic writing on other subjects.
 March was also successful, though it doesn't feel like it since it was less ambitious.
+February, on the other hand, was essentially a complete failure.
+My original focus turned out to feel more like a chore than fun, I took too long to realize that, and by the time I had a second focus, social obligations got in the way of acting on the new plan.
 
-I'm trying to find the right approach to focus.
+Given the mixed results, I think I need to understand the strategy better and find the right approach.
 Should it be kept small and focused?
 Should it be more or less of a commitment?
 Should it be approached less like a task list?
@@ -154,7 +156,7 @@ Once that was in place, I also marked the PRs as to which ones were closer to co
     This is something like the problem of having too much footage, which presents a worse problem to an editor than having too little.
   * **There's only so much time I can save by not getting distracted.**
     I'm not yet sure how else to create time, other than getting practiced at working faster.
-    I should be careful of this one, as it could easily be twisted into be an excuse to slacking.
+    I should be careful of this one, as it could easily be twisted into an excuse for slacking.
 
 Something that has been bugging me this season is categorizing my actions.
 I think a serious improvement to okuno.info requires understanding how to navigate a pool of actions quickly.
@@ -166,7 +168,7 @@ I've gone ahead and just reproduced some notes here for future reference:
   * Inertial: once begun, it is difficult to stop.
   * High Activation Energy^[This needs a much better name]: difficult to begin (usually due to fear of the unknown).
 
-There a are a few things I think deserve some follow-up through the year.
+There are a few things I think deserve some follow-up through the year.
 
   * Why am I so afraid of touching the code for okuno.info?
     Note-to-self is failing due to lack of review.
