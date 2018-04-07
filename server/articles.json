@@ -1,20 +1,28 @@
 { "Approach":
   [ { "title": "Artifact Spirit"
     , "href": "artifact_spirit"
+    , "when":
+      { "published": "2018-03-10"
+      }
     }
   , { "title": "Abstraction"
     , "href": "programming-philosophy/abstraction"
+    , "when":
+      { "published": "2018-03-13"
+      }
     }
   , { "title": "Browser Applications"
     , "href": "browser-applications"
-    , "when": { "published": "2017-11-12" }
+    , "when":
+      { "published": "2017-11-12"
+      }
     }
   , { "title": "FizzBuzz"
     , "href": "programming-philosophy/fizzbuzz"
     , "when":
-        { "published": "2018-01-27"
-        , "updated": [ "2018-02-25" ]
-        }
+      { "published": "2018-01-27"
+      , "updated": [ "2018-02-25" ]
+      }
     }
   ]
 , "Journal":
@@ -34,6 +42,9 @@
     }
   , { "title": "Systems for Conlanging"
     , "href": "journal/conlanging"
+    , "when":
+      { "published": "2018-03-13"
+      }
     }
   , { "title": "Well-Tuned Clock"
     , "href": "journal/clock"
@@ -81,7 +92,9 @@
     }
   , { "title": "How to Haiku"
     , "href": "how-to-haiku"
-    , "when": { "published": "2017-12-10" }
+    , "when":
+      { "published": "2017-12-10"
+      }
     }
   , { "title": "How to Story"
     , "href": "notes/how-to-story"
