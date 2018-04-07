@@ -52,6 +52,9 @@
     , "href": "review/year-12017"
     , "when": { "published": "2017-12-03" }
     }
+  , { "title": "Seasonal Review: Spring 12018"
+    , "href": "review/season-12018b-spring"
+    }
   , { "title": "Seasonal Review: Winter 12018"
     , "href": "review/season-12018a-winter"
     }
