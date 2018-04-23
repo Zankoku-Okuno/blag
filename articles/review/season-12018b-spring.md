@@ -12,3 +12,8 @@ The same goes for my daily tasks, which I've now split into three columns: small
 Hopefully that will let me continue to have fun with them.
 
 I'm considering carrying-in my focus from the last cycle when I don't immediately have anything that excites me.
+
+Even 8 Apr 12018: getting up in the morning is a big thing that needs to be optimized
+
+Midday 21 Apr 12018: possible depression, consider symptoms
+
