@@ -17,3 +17,19 @@ Even 8 Apr 12018: getting up in the morning is a big thing that needs to be opti
 
 Midday 21 Apr 12018: possible depression, consider symptoms
 
+------------------------------------
+
+I'm amazed at how much my Mom & Seain[sp?] have read.
+I wonder how I could do that better.
+I think something that slows me down or turns me away from books is that whenever I'm consuming something, I'm thinking about how I could create something like that.
+If so, that would explain whyI end up writing in styles that I've revently read, and why it's painful to read things that are so bad or wrong.
+
+I had a thought, possibly in a dream, that reinterpreted the story of Sysyphus.
+Instead of highlighting the caprice of the Greek gods, the polish of the boulder was indicative of a person's character.
+As the boulder is pushed up & rolls back down, it becomes rounder and smoother.
+Instead of representing life as a futile endeavour, it shows that the work of life is something to take pride and joy in.
+
+Addy Pross' "What is Life" is an excellent book to takes notes on.
+In the vien on real academic research, I should do that as soon as I've finished my first pass through the book.
+
+If I'm going to be obsessed with D&D, shoudl I be obsessed with building a system, or creating a story?
