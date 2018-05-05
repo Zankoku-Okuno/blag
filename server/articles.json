@@ -26,7 +26,10 @@
     }
   ]
 , "Journal":
-  [ { "title": "Sir, We Have a System"
+  [ { "title": "On Death"
+    , "href": "journal/death"
+    }
+  , { "title": "Sir, We Have a System"
     , "href": "systems"
     , "when":
         { "published": "2017-12-14"
