@@ -155,27 +155,37 @@ TODO: I have not tested it yet, but I expect that nothing outside a component sh
 Therefore, you should still not use the scripting langauge to dispatch any events from the sequential logic.
 Instead, dispatch events from the component as a whole.
 
+The sequential logic for a component may require state that is best stored remotely.
+E.g. the twitter timeline component's state logically includes all tweets the user is subbed to, which would be an unreasonable amount to keep on the client.
+Therefore, the sequential logic will need a way to access remote state.
+My working hypothesis is that this access, rather than being hardcoded into the component, should be injected as a dependency.
+That hypothesis may change as I become more familiar with the custom elements API, or the injection may simply be an `href` attribute.
+
 
 ```
             /-----------------------\
- mutation   | Component             |
-----------> | -\      /--------\    |
- observed   |   V---->|> Comb. |--- | ---------->
-  events    |  e|     |  Logic |    |   events
-            |  v| r/->|        |-\  |  dispatch
-            |  e| e|  \--------/ |  |
-            |  n| a|             |  |
-            |  t| d|  /-------\  |  |
-            |  s|  \--| Seq.  |<-/  |
-            |   \-----| Logic |     |
-            |         \-------/     |
-            \-----------------------/
+            | Component             |
+            |         /--------\    |
+----------> | ------->|> Comb. |--- | ---------->
+ observed   |         |  Logic |    |   events
+  events    |     r/->|        |-\w |  dispatch
+            |     e|  \--------/ |r |
+            |     a|             |i |
+            |     d|  /-------\  |t |
+            |      \--| Seq.  |<-/e |
+            |         | Logic |<.\  |
+            |         \-------/  .  |
+            \--------------------.--/
+                                 .
+    annoying mutation is always  .
+    possible with DOM Elements   .
+................................./
 ```
 
 Since the outputs of these components are events, they should implement the [`EventTarget`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget) interface.
 However, I am not convinced that it is advisable to allow external entities to spoof events that are normally generated from within a component.
 For primitive HTML elements, the `EventTarget.dispatchEvent` method seems to exist merely so that programmers may send events when they mutate attributes of an element.
-In order to be self-contained, a component should construct and fire these events themselves inside any mutators the component may expose.
+In order to be self-contained, a component should construct and fire these events themselves.
 
 
 ## Adaptor Layers
@@ -187,6 +197,8 @@ Remember that, as an adaptor layer, the pinout should be designed based on the d
 Build a "resources" object that acts as an adaptor layer to servers.
 The same design guidelines apply to the resources interface as the pinout.
 In particular, all HTTP requests should be made through resources.
+
+NOTE: So far, I've been using a single giant pinout object (same for resource), but that monolithicness means that an error in one part of the initialization destroys all initialization.
 
 
 ### Rationale
