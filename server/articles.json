@@ -35,6 +35,7 @@
     }
   , { "title": "How to Academic Writing"
     , "href": "journal/how-to-academic-writing"
+    , "when": { "published": "2018-02-03" }
     }
   , { "title": "How to Organize Code"
     , "href": "journal/organizing-code"
@@ -56,6 +57,7 @@
     }
   , { "title": "Custom Keyboard"
     , "href": "keyboard"
+    , "when": { "published": "2017-12-31" }
     }
   ]
 , "Review":
@@ -65,9 +67,11 @@
     }
   , { "title": "Seasonal Review: Winter 12018"
     , "href": "review/season-12018a-winter"
+    , "when": { "published": "2018-04-01" }
     }
   , { "title": "Monthly Review: 12018 Feb"
     , "href": "review/month-12018-02"
+    , "when": { "published": "2018-02-28" }
     }
   , { "title": "Monthly Review: 12018 Jan"
     , "href": "review/month-12018-01"
