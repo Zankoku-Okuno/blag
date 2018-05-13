@@ -95,6 +95,9 @@
   , { "title": "CLI Tools"
     , "href": "notes/cli"
     }
+  , { "title": "Inline Functions in C"
+    , "href": "notes/c-inline"
+    }
   ]
 , "Curiosities":
   [ { "title": "Epigrams"
