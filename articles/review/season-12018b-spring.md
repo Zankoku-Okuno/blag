@@ -52,3 +52,25 @@ Eve 10 May 12018: awareness&stillness coming together.
 
 Duolingo apparently has some new features.
 That notebook I got for my bday could be used as scratch paper for ukrainian writing practice.
+
+------------------------------------
+
+"Does this spark joy?" is a good question for intellectual organization as well.
+If it doesn't, then it doesn't need follow-up, and can be archived/discarded.
+
+Doing all my garbage collection in one day is reminiscent of stop-the-world garbage collection.
+This weekend, I could have been doing interesting stuff, but was distracted by the pressure of garbage collection.
+Perhaps I'll try out a more incremental version of gc, where I spend a little bit of each day doing a handful of gc tasks.
+
+------------------------------------
+
+Eve 22 May 12018: In a dream, I think I discovered a design tension within myself.
+As an engineer, I like when the parts of a system have one of a few clearly defined functions and each part operates only to serve its given functions.
+As an evolutionist, I know that a population's stability is dependent on its genetic diversity.
+The tension comes when examining a living population as composed of parts.
+I guess the tension is resolved when we recognize that engineered systems are simple: too simple to have high stability.
+The question is, in what way to we complexify designed parts in order to allow for device population diversity and thereby achieve stability of technology?
+
+Starting Night 22 May 12018, my journal is overrun by thoughts about digital design.
+This has really increased my ability to complete my journal.
+It's lucky, though, that those thoughts are easily discarded, since I'm in an early exploration/learning phase.
