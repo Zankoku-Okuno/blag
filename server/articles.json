@@ -109,6 +109,9 @@
   , { "title": "CLI Tools"
     , "href": "notes/cli"
     }
+  , { "title": "How to Digital Circuit"
+    , "href": "notes/digital-circuits"
+    }
   ]
 , "Curiosities":
   [ { "title": "Epigrams"
