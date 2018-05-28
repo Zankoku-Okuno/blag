@@ -23,6 +23,7 @@ I'm classifying as small-scale those architectures that are 6--12-bit, have a li
   * Ben Eater's Computer
   * PDP-8 (LD20/LD30 from "The Art of Digital Design")
   * [Intel 8086](https://en.wikipedia.org/wiki/Intel_8086)
+
 These machines might have a single clock for processor, bus, memory, and only hardwired (debug) devices.
 Increasing the complexity of these machines towards medium-scale might mean
   * multiple clocks (for the bus, RAM, &/ devices)
@@ -30,10 +31,12 @@ Increasing the complexity of these machines towards medium-scale might mean
   * I/O devices
   * additional bus cycle types (interrupt, block, read-modify-write)
 
+
 I'm classifying as medium-scale those architectures that are 16--24-bit, have an instruction set with 20--100 opcodes and 2-5 addressing modes.
   * PDP-11
   * AVR?
   * looking for more...
+
 At this point, multiple devices should be no problem, but they may still have to be configured with DIP switches rather than discoverable.
 Increasing the complexity of these machines towards large-scale might mean
   * instruction pre-fetch, and the instruction cache flush to support self-modifying code
@@ -42,6 +45,7 @@ Increasing the complexity of these machines towards large-scale might mean
   * programmable bus/interrupt controller
   * automatic ram and device discovery and configuration
   * watchdog timers for preemptive scheduling
+
 
 I'm classifying as large-scale those architectures that are 32--64-bit, a full and elegant instruction set, 16+ general-purpose architectural registers, and may be parallelized.
 I'd be embarrassed not to be able to bootstrap an assembler and linker on a device this big.
@@ -53,6 +57,7 @@ By now, housing/enclosure will likely become absolutely necessary.
   * ARM
   * Cray-1
   * looking for more...
+
 The features of large-scale architectures are diverse, so I'll list some ideas:
   * virtual memory
   * discoverable memory and devices, supporting automatic configuration by the OS
@@ -63,6 +68,7 @@ The features of large-scale architectures are diverse, so I'll list some ideas:
   * superscalar
   * register renaming
 
+
 After large-scale designs, we're looking at wild experimentation.
   * kernel-mode-only registers
   * dataflow execution
@@ -70,6 +76,7 @@ After large-scale designs, we're looking at wild experimentation.
   * computational RAM
   * "virtual compute units" --- like virtual memory, but with on-the-fly reconfigurable circuits
   * I have no idea what else might be interesting...
+
 
 ## Manufacturing
 
