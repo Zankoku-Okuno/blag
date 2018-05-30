@@ -33,6 +33,9 @@
         , "updated": [ "2018-03-17" ]
         }
     }
+  , { "title": "Computer Design Log"
+    , "href": "journal/homebrew-computer"
+    }
   , { "title": "How to Academic Writing"
     , "href": "journal/how-to-academic-writing"
     , "when": { "published": "2018-02-03" }
