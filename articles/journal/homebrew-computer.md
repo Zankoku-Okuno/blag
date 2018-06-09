@@ -178,6 +178,17 @@ addi SP, offset     ;; restore SP
 Constant propagation can eliminate the last instruction, or merge it with another SP movement.
 It only needs to be restored before call/ret.
 
+#### Minimal Instruction Set
+
+It's great that I can cram all these operations into a tiny instruction word,
+but getting them all implemented would take a lot of soldering.
+Therefore, I should select a smaller, minimal set that is Turing-complete to implement first.
+I've tried to organize these instructions into groups based on the hardware that will be required to implement them.
+Earlier instructions in each group are more important, but further instructions will only require additional microcode.
+    * Bus: `mov, jal, ldi`
+    * Comparator: `cmp A to 0, clr, jc, jnc`
+    * ALU: `add, sub, inc, dec, neg, clr, not`
+    * MMU: `ld, st`
 
 
 ### Attempt 2
