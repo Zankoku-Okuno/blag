@@ -17,6 +17,9 @@
       { "published": "2017-11-12"
       }
     }
+  , { "title": "The Trouble with Closest Possible Worlds as Foundational Theories"
+    , "href": "closest-possible-worlds"
+    }
   , { "title": "FizzBuzz"
     , "href": "programming-philosophy/fizzbuzz"
     , "when":
