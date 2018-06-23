@@ -36,6 +36,32 @@ Therefore, I'll need a series of smaller tests.
 
 A for-fun goal might be to use SMD and PCB to create as small an MSI computer as I can, maybe a single board.
 
+## Notes
+
+There are various types of execution units in computers that drive the usefulness of the computer.
+  * data transfers (between combos of: processor, memory, input, output)
+  * address math
+  * bitwise
+  * binary integers & fixpoint
+  * binary floating point
+  * decimal fixpoint and floating point
+  * cryptography
+  * audio, color, spatial, and projection mathematics (and any other multimedia stuff I can think of)
+  * neuron operations (or other AI functions)
+  * programmable logic
+  * synchronization
+  * protection systems (for OSes)
+  * virtual memory
+  * maintenance (e.g. sensors for heat, power stability, modulation of clock/power)
+
+There are also way more (finite-size) numerical formats than you'd think.
+  * size
+  * bit order, which could be multi-dimensional, and/or arbitrarily permuted
+  * alignment
+  * internal padding and error detection/corrections
+  * binary, binary-coded decimal (packed, unpacked, various denser packings), bi-quinary
+  * two's/ten's complement, one's/nine's complement, sign digit
+
 ## My First Machine
 
 The question is also one of whether I copy an existing design or design my own.
