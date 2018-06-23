@@ -74,3 +74,33 @@ The question is, in what way to we complexify designed parts in order to allow f
 Starting Night 22 May 12018, my journal is overrun by thoughts about digital design.
 This has really increased my ability to complete my journal.
 It's lucky, though, that those thoughts are easily discarded, since I'm in an early exploration/learning phase.
+
+------------------------------------
+
+I think I've decided that my hobby expenditures for the moment will be oriented to basic making tools and digital electronics.
+I will return to miniatures and pens some time later.
+
+I quite like the design approach advocated in The Art of Digital Design, in theory.
+In reality, I think beginners should start by throwing hardware at the wall and seeing what sticks.
+With CAD tools though, that can be much less expensive and time-consuming than using real hardware.
+
+If it's important to kep in mind a focus, it's probably also important to keep in mind what _isn't_ in focus.
+Therefore, I propose an "unfocus" for pointing out things that I've decided not to be thinking about, but am having a hard time not thinking about.
+Such a list could be populated lazily through the timescale.
+The unfocus could also be searched later to determine what my brain is really interested in.
+
+
+
+It seems I have been engrossed in designing a homebrew computer.
+Now that it is summer, I think that is a project I would like to stick with.
+In particular, I should put langauge design on my summer unfocus.
+
+It seems my systems last about six months before they start failing.
+Perhaps I get around this by removing them all and rebuilding them.
+Alternatively, I may be able to do an inventory of what seems most important, then jsut clean out the others.
+So, what parts of my system are most important?
+What missing aprts of my system are most important?
+
+Speaking of important, I don't think the journal is so important anymore.
+I may be saying that because I'm slipping on my entry rate, but actually: how important is it?
+I think its purpose should be more for scribbles and brain crack extraction than establishing a routine.
