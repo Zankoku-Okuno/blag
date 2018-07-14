@@ -112,6 +112,9 @@
   , { "title": "CLI Tools"
     , "href": "notes/cli"
     }
+  , { "title": "How to Browser"
+    , "href": "notes/how-to-browser"
+    }
   , { "title": "How to Digital Circuit"
     , "href": "notes/digital-circuits"
     }
