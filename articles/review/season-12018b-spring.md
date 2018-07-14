@@ -1,52 +1,177 @@
 # Review Spring 12018
 
-------------------------------------
+## Sisyphus
 
-I'm looking at my creative stuff as things I have to do rather than as things I'd rather do in preference to mindless consumption.
-How do I tune the system so that it is no longer demotivating my creative work?
-I'm happy for my adulting that I'm tracking my chores better, so that part of the system needs to be retained.
+I need a name for my system that will last over its (my) lifetime.
 
-Separate out weekly focus and task lists.
-That way I'm not thinking about my focus in the same way I think of tasks: as chores I "have" to do.
-The same goes for my daily tasks, which I've now split into three columns: small, mid, fun.
-Hopefully that will let me continue to have fun with them.
-
-I'm considering carrying-in my focus from the last cycle when I don't immediately have anything that excites me.
-
-Even 8 Apr 12018: getting up in the morning is a big thing that needs to be optimized
-
-Midday 21 Apr 12018: possible depression, consider symptoms
-
-------------------------------------
-
-I'm amazed at how much my Mom & Seain[sp?] have read.
-I wonder how I could do that better.
-I think something that slows me down or turns me away from books is that whenever I'm consuming something, I'm thinking about how I could create something like that.
-If so, that would explain whyI end up writing in styles that I've recently read, and why it's painful to read things that are so bad or wrong.
-
-I had a thought, possibly in a dream, that reinterpreted the story of Sysyphus.
+I had a thought, possibly in a dream, that reinterpreted the story of Sisyphus.
 Instead of highlighting the caprice of the Greek gods, the polish of the boulder was indicative of a person's character.
 As the boulder is pushed up & rolls back down, it becomes rounder and smoother.
 Instead of representing life as a futile endeavor, it shows that the work of life is something to take pride and joy in.
+Honestly, what I've written doesn't capture what I was thinking, so I doubt anyone else will understand the idea I'm trying to get across.
 
-Addy Pross' "What is Life" is an excellent book to takes notes on.
-In the vein on real academic research, I should do that as soon as I've finished my first pass through the book.
+In any case, it's a good name.
+Eternally doing work, though it will never be finished, and (with this new idea) through doing the work becoming a more fully realized me...
+I think that sums up the objective.
 
-If I'm going to be obsessed with D&D, should I be obsessed with building a system, or creating a story?
+Speaking of Sisyphus, it seems my systems last about six months before they start failing.
+Perhaps I get around this by removing them all and rebuilding them, or otherwise doing a massive reshuffling.
+It's like present me is a new CEO coming in and wants to assert their authority and show how much better they are than the CEO that was past me.
+In any case, I think the seasonal review may have just saved Sisyphus.
+There are a bunch of obvious problems that I've just gotten used to.
+After a season-full of roughly the same system, taking a step back turns out to have been essential.
 
-------------------------------------
+
+## Focus
+
+I've struggled with motivation this season, and I think that comes down to not understanding focus.
+I introduced focus to Sisyphus last season, but I think I got lucky in January.
+By now, it's obvious that weekly focuses are not working, and that I'm having a hard time remembering my monthly focus.
+
+One thing that helped this season was separating the focus from my task list.
+This way I'm not thinking about my focus in the same way I think of tasks: as chores I "have" to do.
+I think focus is meant to be there as a reminder that I _do_ have things I _want_ to do if I'm ever at a loss for something to fill time with.
+I'm going to have to re-orient my perspective on focus as a set of proposals for action rather than a checklist of actions to perform.
+I still want to check on my focus, though, and I think that can be done with crafting a question as in Cortex 66 (Triggers).
+I'm not entirely sure on these, but the underlying principle is to prevent lists from demotivating creative work.
+
+Another facet of the focus-isn't-a-checklist principle is that the items in my focus should never be discrete tasks to be finished.
+Something I thought I wanted this year is longer cycles of action, but I'm not so sure anymore.
+I think it's more important to be able to resume tasks without much loss from re-loading them into memory.
+If I can manage it, I'll then be able to make progress on multiple fronts concurrently, and not feel so guilty about switching tasks.
+
+I'm experimenting with an "unfocus" for things I don't want to get distracted by, but I'm not sure that's a great idea.
+For example, I wanted to focus on building a breadboard computer, and thought I didn't want to get distracted by building a programming language.
+Shortly after making that decision, I stopped working on my computer and built the infrastructure to build programming languages.
+I think the unfocus, used in this way at least, is reminding me of worthwhile things I want to do, while also trying to stop me from following my inspiration.
+I think I should use the unfocus as a list of things I know I'll be ashamed of if I make progress on them: like watching YouTube, or playing unintentional games.
+
+Possibly the biggest problem with focus is just remembering that it is there.
+I think I had something physical getting in my way in January, and that may have been why it was successful then.
+There are two timescales that I need to worry about here: monthly and weekly.
+For the weekly focus, I think the left-hand side of a spread is more visible, so I think I'll put the focus there, and make sure it's nice big and colorful; I'll see how it goes.
+As for the monthly focus, I think I need to de-improve Sisyphus and go back to having a loose sheet of paper floating on my desk instead of burying it in a notebook I've optimized to only ever look at weekly.
+
+
+## Garbage Collection
+
+One weekend this season, I skipped garbage collection.
+It didn't turn out too bad, but I did have to spread out some of the process over two more gc cycles.
+After skipping another week to see if I was right, I wasn't so impressed, but it did get me thinking.
+
+Doing all my garbage collection in one day is reminiscent of stop-the-world garbage collection.
+In week 19, I could have been doing interesting stuff over the weekend, but was distracted by the pressure of garbage collection.
+The obvious solution to latency from stop-the-world gc is incremental gc.
+
+My goal is to spend about an hour a day each weekend doing garbage collection.
+Too much gc is too much overhead, and too little loses things.
+So far, I've noticed that my gc checklist is inadequate: instead of storing booleans, it needs to store the date a particular gc action was last performed.
+
+I also want to try to reduce that amount of stuff I think I shouldn't lose track of.
+This is analogous to physical de-cluttering.
+That is, "Does this spark joy?" is a good question for intellectual organization as well.
+If it doesn't, then it doesn't need follow-up, and can be ignored during gc, or it can (lazily) be archived/discarded out of other Sisyphus subsystems.
+
+
+## Journal
+
+I ended up with 72% on my entry-every-day goal, which is not a great success, but it's not so bad.
+I think a lot of that comes down to having the feeling that I don't want to journal when I am reminded.
+I don't want to feel guilty about failing something which is not actually that important in the first place.
+
+Don't get me wrong, though, there have been times when it was essential to have a journal to write in.
+One thing that the journal has clearly helped with is with exploring ideas that have a high likelihood of being discarded.
+Starting Night 22 May 12018, my journal is overrun by thoughts about digital design.
+It gave me a chance to get things out of my head and see the problems more easily, or to see that there aren't so many problems and I should just get up and do a proper design.
+
+I'm removing any goal for a regular journaling schedule.
+I'd still like to remember that the journal exists though.
+I'll therefore continue collecting data on my journaling habits as part of garbage collection.
+This reduction in journaling could be seen as an example of "Does this spark joy?".
+
+
+## Facts about My Self
+
+My special skill is semantics.
+Recall that a semantics is an equivalence class over a language subject to the principle of compositionality.
+
+I think something that slows me down or turns me away from books is that whenever I'm consuming something, I'm thinking about how I could create something like that.
+If so, that would explain why I end up writing in styles that I've recently read, and why it's painful to read things that are so bad or wrong.
+
+In a dream, I think I discovered a design tension within myself.
+As an engineer, I like when the parts of a system have one of a few clearly defined functions and each part operates only to serve its given functions.
+As an evolutionist, I know that a population's stability is dependent on its genetic diversity.
+The tension comes when examining a living population as composed of parts.
+I guess the tension is resolved when we recognize that engineered systems are simple: too simple to have high stability.
+The question is, in what way to we complexify designed parts in order to allow for device population diversity and thereby achieve stability of technology?
+The dream is summarized in my journal, Eve 22 May 12018.
+
+
+## Actions
+
+I read Addy Pross' book "What is Life?", and it completely opened my mind to a realm of thought about how living systems are distinct from non-living ones.
+Given that I am all-in on the idea of memetics, the ideas there can also apply to understanding societies.
+Thanks to my note-to-self system, I've managed to write down these ideas.
+
+Binder clips on the midori have been really useful.
+Not only can they mark many pages and make it easy to flip between them, but I can clip a pen on the large binderclip, alleviating the need for a pen loop.
+
+TODO go through calendar
+
+
+## Follow Up
+
+Note-to-self is not providing value due to lack of categorization and filtering.
 
 I don't think seasonalism (different kinds of work in different seasons) is really doing anything for me at the moment.
 I've got so much to experiment with and so much to develop that spring/summer are getting in each other's way.
 
-There are times when I'm really quite glad to journal.
+The categorization of actions might be more of a series of principles rather than true categorization.
+For example, tasks must be perfective, but there's no requirement about then being/not being intertial or high activation energy.
 
-Binder clips on the midori have been really useful.
+On books: I'm amazed by how much Mom and Seian[sp?] read.
+I'm not sure it's useful for me to start reading that much now, but I would like to think about reading more often.
+I did read "What is Life?" last season, but didn't end up reading "Triggers".
+I think I'll fix the latter one as soon as I can, since I'm working on improving my system at the moment anyway.
 
-Skipping a week of gc isn't too bad, as long as I'm willing to spread out some of the process over two more gc cycles.
+I'm still not sure why updating okuno.info has been so high activation energy.
+I still haven't improved it, even though I've known I need to for three months now.
+I did try rebuilding it for a moment there before basically giving up, since I didn't want to go through the work of porting it, and my categorization system seems to be in a highly unstable state.
 
-My special skill is semantics.
-Recall that a semantics is an equivalence class over a language subject to the principle of compositionality.
+
+## For Next Time
+
+TODO
+
+I think focus is meant to be there as a reminder that I _do_ have things I _want_ to do if I'm ever at a loss for something to fill time with.
+I'm going to have to re-orient my perspective on focus as a set of proposals for action rather than a checklist of actions to perform.
+I think it's more important to be able to resume tasks without much loss from re-loading them into memory.
+
+I still want to check on my focus, though, and I think that can be done with crafting a question as in Cortex 66 (Triggers).
+
+I think I should use the unfocus as a list of things I know I'll be ashamed of if I make progress on them: like watching YouTube, or playing unintentional games.
+
+For the weekly focus, I think the left-hand side of a spread is more visible, so I think I'll put the focus there, and make sure it's nice big and colorful; I'll see how it goes.
+
+As for the monthly focus, I think I need to de-improve Sisyphus and go back to having a loose sheet of paper floating on my desk instead of burying it in a notebook I've optimized to only ever look at weekly.
+
+My goal is to spend about an hour a day each weekend doing garbage collection.
+
+So far, I've noticed that my gc checklist is inadequate: instead of storing booleans, it needs to store the date a particular gc action was last performed.
+
+I also want to try to reduce that amount of stuff I think I shouldn't lose track of.
+
+I'm removing any goal for a regular journaling schedule.
+I'll therefore continue collecting data on my journaling habits as part of garbage collection.
+
+
+# Notes
+
+Eve 8 Apr 12018: getting up in the morning is a big thing that needs to be optimized
+
+Midday 21 Apr 12018: possible depression, consider symptoms
+
+------------------------------------
 
 Eve 10 May 12018: awareness&stillness coming together.
 
@@ -55,52 +180,5 @@ That notebook I got for my bday could be used as scratch paper for ukrainian wri
 
 ------------------------------------
 
-"Does this spark joy?" is a good question for intellectual organization as well.
-If it doesn't, then it doesn't need follow-up, and can be archived/discarded.
-
-Doing all my garbage collection in one day is reminiscent of stop-the-world garbage collection.
-This weekend, I could have been doing interesting stuff, but was distracted by the pressure of garbage collection.
-Perhaps I'll try out a more incremental version of gc, where I spend a little bit of each day doing a handful of gc tasks.
-
-------------------------------------
-
-Eve 22 May 12018: In a dream, I think I discovered a design tension within myself.
-As an engineer, I like when the parts of a system have one of a few clearly defined functions and each part operates only to serve its given functions.
-As an evolutionist, I know that a population's stability is dependent on its genetic diversity.
-The tension comes when examining a living population as composed of parts.
-I guess the tension is resolved when we recognize that engineered systems are simple: too simple to have high stability.
-The question is, in what way to we complexify designed parts in order to allow for device population diversity and thereby achieve stability of technology?
-
-Starting Night 22 May 12018, my journal is overrun by thoughts about digital design.
-This has really increased my ability to complete my journal.
-It's lucky, though, that those thoughts are easily discarded, since I'm in an early exploration/learning phase.
-
-------------------------------------
-
 I think I've decided that my hobby expenditures for the moment will be oriented to basic making tools and digital electronics.
 I will return to miniatures and pens some time later.
-
-I quite like the design approach advocated in The Art of Digital Design, in theory.
-In reality, I think beginners should start by throwing hardware at the wall and seeing what sticks.
-With CAD tools though, that can be much less expensive and time-consuming than using real hardware.
-
-If it's important to kep in mind a focus, it's probably also important to keep in mind what _isn't_ in focus.
-Therefore, I propose an "unfocus" for pointing out things that I've decided not to be thinking about, but am having a hard time not thinking about.
-Such a list could be populated lazily through the timescale.
-The unfocus could also be searched later to determine what my brain is really interested in.
-
-
-
-It seems I have been engrossed in designing a homebrew computer.
-Now that it is summer, I think that is a project I would like to stick with.
-In particular, I should put langauge design on my summer unfocus.
-
-It seems my systems last about six months before they start failing.
-Perhaps I get around this by removing them all and rebuilding them.
-Alternatively, I may be able to do an inventory of what seems most important, then jsut clean out the others.
-So, what parts of my system are most important?
-What missing aprts of my system are most important?
-
-Speaking of important, I don't think the journal is so important anymore.
-I may be saying that because I'm slipping on my entry rate, but actually: how important is it?
-I think its purpose should be more for scribbles and brain crack extraction than establishing a routine.
