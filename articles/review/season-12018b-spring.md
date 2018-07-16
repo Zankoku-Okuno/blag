@@ -37,7 +37,7 @@ I'm not entirely sure on these, but the underlying principle is to prevent lists
 
 Another facet of the focus-isn't-a-checklist principle is that the items in my focus should never be discrete tasks to be finished.
 Something I thought I wanted this year is longer cycles of action, but I'm not so sure anymore.
-I think it's more important to be able to resume tasks without much loss from re-loading them into memory.
+I think it's more important to be able to resume tasks without much loss from re-loading them into memory rather than trying to complete an entire project in one go.
 If I can manage it, I'll then be able to make progress on multiple fronts concurrently, and not feel so guilty about switching tasks.
 
 I'm experimenting with an "unfocus" for things I don't want to get distracted by, but I'm not sure that's a great idea.
@@ -106,17 +106,48 @@ I guess the tension is resolved when we recognize that engineered systems are si
 The question is, in what way to we complexify designed parts in order to allow for device population diversity and thereby achieve stability of technology?
 The dream is summarized in my journal, Eve 22 May 12018.
 
+## Stillness and Awareness
+
+For about a month, I put "Stillness" on my focus.
+It seems it was useful while I had it one there.
+In particular, it has helped me get a little bit of work done, which was then the inspiration I needed to continue on to large projects.
+Little tasks may be where stillness shines: immediate work on large tasks without planning (at least head organization) can lead to inefficiencies down the road.
 
 ## Actions
+
+In my social life, this season saw my sis' wedding celebration.
+That meant I got to spend some time with my uncles, Mark, and Seian&Leslie.
+The Atlanta Pen Show was also this season.
+Seeing people I'd only known from online was surreal, but also reassuring to see that the really are the people they portray themselves as online.
+I also made a number of unexpected friends there, though despite some of us agreeing to meet soon, we still haven't.
+
+Speaking of pens, I've tentatively stepped into ink mixing.
+I've successfully reproduced Wakakusa, and I'm working on a Iroshizuku-based red.
+My first attempt turned out with a fascinating wine color which varies dramatically in different contexts.
+I'm still making my way through the sample I made up.
+
+Binder clips on the Midori have been really useful.
+Not only can they mark many pages and make it easy to flip between them, but I can clip a pen on the large binderclip, alleviating the need for a pen loop.
 
 I read Addy Pross' book "What is Life?", and it completely opened my mind to a realm of thought about how living systems are distinct from non-living ones.
 Given that I am all-in on the idea of memetics, the ideas there can also apply to understanding societies.
 Thanks to my note-to-self system, I've managed to write down these ideas.
 
-Binder clips on the midori have been really useful.
-Not only can they mark many pages and make it easy to flip between them, but I can clip a pen on the large binderclip, alleviating the need for a pen loop.
+I made progress on some basic programming projects.
+I finally figured out what is going on with `inline` in C, so I put it some work simplifying and expanding predithmatic.
+I also had a thought about how to implement regular expressions with backtracking using derivatives, so I implemented a rough draft of just such an engine.
+After getting annoyed at the lack of portability in the C standard, I switched to working on [`cvm`](https://github.com/Zankoku-Okuno/cvm).
+I had enough of a novel approach that I started it over, so I've renamed it to `prokaryote`, but I got stuck on IO ports vs. parallel processing, which indicated to me that I needed to learn more about real hardware.
 
-TODO go through calendar
+I spend the rest of the season deep in computer hardware.
+I read the rest of "The Art of Digital Design", as well as some more of "Structured Computer Organization".
+I designed an architecture, which I've called Sigma8, for my first computer build.
+I learned Verilog to try to help me design the microarchitecture, but I didn't make much headway there.
+After some fiddling around with different design methods, I landed on the idea of "throw hardware at the wall and see what sticks".
+After being dissapointed and hurting my wrist using available digital design tools, I built by own breadboard CAD system.
+I was amazed how easily it came together, and how much confidence it gave me to go forward with my build.
+I've now designed the general-purpose register file and made progress on the ALU module.
+I also built a timer module on a physical breadboard.
 
 
 ## Follow Up
@@ -141,44 +172,30 @@ I did try rebuilding it for a moment there before basically giving up, since I d
 
 ## For Next Time
 
-TODO
+Pay attention to the several changes to my focus subsystem:
+    * Focus is not a list of tasks.
+    * Focus is a reminder that I have things I want to do, regardless of my mood.
+    * Craft a [trigger](https://www.relay.fm/cortex/66) to ask about my focus rather than checking them off.
+    * Get focuses into resumable states rather than trying to get them into finished states.
+    * Use the unfocus as a list of things I know my future self will be ashamed of, rather than a list of things I'd be happy to have made progress on.
+    * Did focus on the left-hand side of the spread work?
+    * Did a loose-leaf monthly focus work?
 
-I think focus is meant to be there as a reminder that I _do_ have things I _want_ to do if I'm ever at a loss for something to fill time with.
-I'm going to have to re-orient my perspective on focus as a set of proposals for action rather than a checklist of actions to perform.
-I think it's more important to be able to resume tasks without much loss from re-loading them into memory.
+For garbage collection:
+    * Did I rebuild my gc checklist to account for dates rather than bools?
+    * How did I do with my weekly two-hour gc cycle? Numbers, please.
+    * Did I ask "Does it spark joy?"
 
-I still want to check on my focus, though, and I think that can be done with crafting a question as in Cortex 66 (Triggers).
+Did I remember that my journal exists?
+Did I get good use out of it?
+Do I need to switch it for a sketchbook?
 
-I think I should use the unfocus as a list of things I know I'll be ashamed of if I make progress on them: like watching YouTube, or playing unintentional games.
+Did I try to meet with my pen friends?
 
-For the weekly focus, I think the left-hand side of a spread is more visible, so I think I'll put the focus there, and make sure it's nice big and colorful; I'll see how it goes.
+Focus on stillness again, especially for small tasks.
 
-As for the monthly focus, I think I need to de-improve Sisyphus and go back to having a loose sheet of paper floating on my desk instead of burying it in a notebook I've optimized to only ever look at weekly.
-
-My goal is to spend about an hour a day each weekend doing garbage collection.
-
-So far, I've noticed that my gc checklist is inadequate: instead of storing booleans, it needs to store the date a particular gc action was last performed.
-
-I also want to try to reduce that amount of stuff I think I shouldn't lose track of.
-
-I'm removing any goal for a regular journaling schedule.
-I'll therefore continue collecting data on my journaling habits as part of garbage collection.
-
-
-# Notes
-
-Eve 8 Apr 12018: getting up in the morning is a big thing that needs to be optimized
-
-Midday 21 Apr 12018: possible depression, consider symptoms
-
-------------------------------------
-
-Eve 10 May 12018: awareness&stillness coming together.
-
-Duolingo apparently has some new features.
-That notebook I got for my bday could be used as scratch paper for ukrainian writing practice.
-
-------------------------------------
-
-I think I've decided that my hobby expenditures for the moment will be oriented to basic making tools and digital electronics.
-I will return to miniatures and pens some time later.
+Waking up is something that I need to optimize:
+    * I like setting my alarm for ~0900.
+    * Breakfast might just be acting as a break in my action before I even get moving.
+    * What if I set my alarm to ask me what I would like to do with the next two hours?
+    * How does the script on Even 8 April 12018 work w.r.t. Triggers?
