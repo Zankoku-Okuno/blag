@@ -44,6 +44,16 @@ Each addition I made to this one led into needing more to get the balance right.
 I'm still making experiments, but they're more often successes... not always though.
 
 ![Correct](/static/doodles/010.png)
-This one came out with a good color pallet, and it's faily big.
+This one came out with a good color pallet, and it's fairly big.
 The shapes are more known forms than experimentation.
 The feeling I get from this is that I just did it right, plain and simple.
+
+![Live from the ATL Pen Show](/static/doodles/011.png)
+Made at the Atlanta Pen Show while some new friends and I experimented with each others pens and inks.
+My color choice is on point again (though the photography is pretty bad), and the doodles are getting larger naturally.
+
+![Dark](/static/doodles/012.png)
+I decided in this ont to try a dark ink for the skeleton of the doodle, and fill smaller sections in with other inks.
+Unfortunately, I didn't choose the brightest inks for this, and the doodle itself is quite muddy.
+It actually looks a bit better in the photo thanks to the camera glash highlighting the sheen on one of the inks.
+I'm quite happy with the shape, though.

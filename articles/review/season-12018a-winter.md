@@ -35,9 +35,9 @@ It is possible that the drop may have been caused by an increase in other forms 
 Weekends are particularly difficult as there is no set timeframe---either to start or to end.
 
 My plan for the next journal is to be lighter, more flexible, and more forgiving.
-The goal will be to hit have 80-100% success at one entry per day, and lower than 80% will have trigger additional focus rather than despair.
+The goal will be to hit 80-100% success at one entry per day, and lower than 80% will trigger additional focus rather than despair.
 I've also placed a list of prompts at the front of my journal for reference if I get stuck.
-Finally, for weekend entries I've set a reminder, and will set a timer within which the bulk of entry will need to be made or else abandoned.
+Finally, for weekend entries I've set a reminder, and will set a timer within which the bulk of the entry will need to be made or else abandoned.
 
 ### Midori
 
@@ -136,7 +136,7 @@ Part of that was that my March focus encouraged doing work on the blag.
 Another part of that may be that my journal developed my writing skills, even if it was only to be more comfortable creating sentences.
 The final part was that I was able to get the work organized.
 I did have "feature" branches from the start of the blag, but I developed that inventory system far more.
-All of those branches were turned into pull requests so that the didn't get lost in the spaghetti of the branch timeline.
+All of those branches were turned into pull requests so that they didn't get lost in the spaghetti of the branch timeline.
 Once that was in place, I also marked the PRs as to which ones were closer to completion so that I could better focus on articles that required less work to complete.
 
 
@@ -146,7 +146,7 @@ Once that was in place, I also marked the PRs as to which ones were closer to co
     I've been thinking a fair bit about what my long term goals are, and I keep coming back to teaching.
     What I'd like to find is a way to try my hand at teaching before going through more school.
     On the other hand, I find myself consumed by clearing small projects out of my way.
-    This may turn out to be a year of metal decluttering before embarking on the road to professorship.
+    This may turn out to be a year of mental decluttering before embarking on the road to professorship.
     I was thinking about "He who knows does not speak, he who is ignorant does": perhaps it's that one must speak to turn from student to master, and my blag is a part of that process.
     At the very least, I hope it allows me to grow into larger projects.
   * **Ideas are a denial-of-service attack.**
