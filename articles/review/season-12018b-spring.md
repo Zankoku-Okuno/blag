@@ -8,10 +8,10 @@ I had a thought, possibly in a dream, that reinterpreted the story of Sisyphus.
 Instead of highlighting the caprice of the Greek gods, the polish of the boulder was indicative of a person's character.
 As the boulder is pushed up & rolls back down, it becomes rounder and smoother.
 Instead of representing life as a futile endeavor, it shows that the work of life is something to take pride and joy in.
-Honestly, what I've written doesn't capture what I was thinking, so I doubt anyone else will understand the idea I'm trying to get across.
+Honestly, what I've written doesn't capture what I was thinking, so I doubt anyone else will understand the idea I'm trying to get across, but it was worth a shot.
 
-In any case, it's a good name.
-Eternally doing work, though it will never be finished, and (with this new idea) through doing the work becoming a more fully realized me...
+In any case, it makes for a good name.
+Eternally doing work, though it will never be finished, and through doing the work becoming a more fully realized me...
 I think that sums up the objective.
 
 Speaking of Sisyphus, it seems my systems last about six months before they start failing.
@@ -36,8 +36,8 @@ I still want to check on my focus, though, and I think that can be done with cra
 I'm not entirely sure on these, but the underlying principle is to prevent lists from demotivating creative work.
 
 Another facet of the focus-isn't-a-checklist principle is that the items in my focus should never be discrete tasks to be finished.
-Something I thought I wanted this year is longer cycles of action, but I'm not so sure anymore.
-I think it's more important to be able to resume tasks without much loss from re-loading them into memory rather than trying to complete an entire project in one go.
+Something I thought I wanted this year was longer cycles of action, but I'm not so sure anymore.
+Now that I think it consciously, trying to complete an entire project in one go is obviously silly compared to being able to resume tasks without much loss from re-loading them into memory.
 If I can manage it, I'll then be able to make progress on multiple fronts concurrently, and not feel so guilty about switching tasks.
 
 I'm experimenting with an "unfocus" for things I don't want to get distracted by, but I'm not sure that's a great idea.
@@ -47,9 +47,9 @@ I think the unfocus, used in this way at least, is reminding me of worthwhile th
 I think I should use the unfocus as a list of things I know I'll be ashamed of if I make progress on them: like watching YouTube, or playing unintentional games.
 
 Possibly the biggest problem with focus is just remembering that it is there.
-I think I had something physical getting in my way in January, and that may have been why it was successful then.
+I think I had something physical in January making itself known, and that may have been why it was successful then.
 There are two timescales that I need to worry about here: monthly and weekly.
-For the weekly focus, I think the left-hand side of a spread is more visible, so I think I'll put the focus there, and make sure it's nice big and colorful; I'll see how it goes.
+For the weekly focus, I think the left-hand side of a spread is more visible, so I think I'll put the focus there, and make sure it's nice and big and colorful; I'll see how it goes.
 As for the monthly focus, I think I need to de-improve Sisyphus and go back to having a loose sheet of paper floating on my desk instead of burying it in a notebook I've optimized to only ever look at weekly.
 
 
@@ -61,10 +61,10 @@ After skipping another week to see if I was right, I wasn't so impressed, but it
 
 Doing all my garbage collection in one day is reminiscent of stop-the-world garbage collection.
 In week 19, I could have been doing interesting stuff over the weekend, but was distracted by the pressure of garbage collection.
-The obvious solution to latency from stop-the-world gc is incremental gc.
+The obvious solution to the latency problems of stop-the-world gc is _incremental_ gc.
 
-My goal is to spend about an hour a day each weekend doing garbage collection.
-Too much gc is too much overhead, and too little loses things.
+My goal is to spend about an hour a weekend-day doing garbage collection.
+Too much gc drowns my spirit in overhead trying to be perfect, and too little drowns spirit in overhead trying to catch up.
 So far, I've noticed that my gc checklist is inadequate: instead of storing booleans, it needs to store the date a particular gc action was last performed.
 
 I also want to try to reduce that amount of stuff I think I shouldn't lose track of.
@@ -76,11 +76,11 @@ If it doesn't, then it doesn't need follow-up, and can be ignored during gc, or 
 ## Journal
 
 I ended up with 72% on my entry-every-day goal, which is not a great success, but it's not so bad.
-I think a lot of that comes down to having the feeling that I don't want to journal when I am reminded.
+I think a lot of that s because sometimes, when I am reminded to journal, I get the explicit feeling that I don't want to.
 I don't want to feel guilty about failing something which is not actually that important in the first place.
 
 Don't get me wrong, though, there have been times when it was essential to have a journal to write in.
-One thing that the journal has clearly helped with is with exploring ideas that have a high likelihood of being discarded.
+One thing that the journal has clearly helped with is exploring ideas that have a high likelihood of being discarded.
 Starting Night 22 May 12018, my journal is overrun by thoughts about digital design.
 It gave me a chance to get things out of my head and see the problems more easily, or to see that there aren't so many problems and I should just get up and do a proper design.
 
@@ -90,7 +90,7 @@ I'll therefore continue collecting data on my journaling habits as part of garba
 This reduction in journaling could be seen as an example of "Does this spark joy?".
 
 
-## Facts about My Self
+## Facts about Myself
 
 My special skill is semantics.
 Recall that a semantics is an equivalence class over a language subject to the principle of compositionality.
@@ -103,7 +103,7 @@ As an engineer, I like when the parts of a system have one of a few clearly defi
 As an evolutionist, I know that a population's stability is dependent on its genetic diversity.
 The tension comes when examining a living population as composed of parts.
 I guess the tension is resolved when we recognize that engineered systems are simple: too simple to have high stability.
-The question is, in what way to we complexify designed parts in order to allow for device population diversity and thereby achieve stability of technology?
+The question is, in what way do we complexify designed parts in order to allow for device population diversity and thereby achieve stability of technology?
 The dream is summarized in my journal, Eve 22 May 12018.
 
 ## Stillness and Awareness
@@ -115,10 +115,10 @@ Little tasks may be where stillness shines: immediate work on large tasks withou
 
 ## Actions
 
-In my social life, this season saw my sis' wedding celebration.
+In my social life, this season saw my sister's wedding celebration.
 That meant I got to spend some time with my uncles, Mark, and Seian&Leslie.
 The Atlanta Pen Show was also this season.
-Seeing people I'd only known from online was surreal, but also reassuring to see that the really are the people they portray themselves as online.
+Seeing people I'd only known from online was surreal, but also reassuring to see that they really are the people they portray themselves as online.
 I also made a number of unexpected friends there, though despite some of us agreeing to meet soon, we still haven't.
 
 Speaking of pens, I've tentatively stepped into ink mixing.
@@ -129,6 +129,9 @@ I'm still making my way through the sample I made up.
 Binder clips on the Midori have been really useful.
 Not only can they mark many pages and make it easy to flip between them, but I can clip a pen on the large binderclip, alleviating the need for a pen loop.
 
+I realized I'd run out of space to store books in my room.
+I took a few hours to re-organize, and I ended up getting another bookshelf into the space without having to move anything out of the room, or compromise on space or first-order accessibility.
+
 I read Addy Pross' book "What is Life?", and it completely opened my mind to a realm of thought about how living systems are distinct from non-living ones.
 Given that I am all-in on the idea of memetics, the ideas there can also apply to understanding societies.
 Thanks to my note-to-self system, I've managed to write down these ideas.
@@ -137,11 +140,11 @@ I made progress on some basic programming projects.
 I finally figured out what is going on with `inline` in C, so I put it some work simplifying and expanding predithmatic.
 I also had a thought about how to implement regular expressions with backtracking using derivatives, so I implemented a rough draft of just such an engine.
 After getting annoyed at the lack of portability in the C standard, I switched to working on [`cvm`](https://github.com/Zankoku-Okuno/cvm).
-I had enough of a novel approach that I started it over, so I've renamed it to `prokaryote`, but I got stuck on IO ports vs. parallel processing, which indicated to me that I needed to learn more about real hardware.
+I had enough of a novel approach that I started it over, so I've renamed it `prokaryote`, but I got stuck on IO ports vs. parallel processing, which indicated to me that I needed to learn more about real hardware.
 
-I spend the rest of the season deep in computer hardware.
+I spent the last month of the season deep in computer hardware.
 I read the rest of "The Art of Digital Design", as well as some more of "Structured Computer Organization".
-I designed an architecture, which I've called Sigma8, for my first computer build.
+I designed an architecture, which I've called σ8, for my first computer build.
 I learned Verilog to try to help me design the microarchitecture, but I didn't make much headway there.
 After some fiddling around with different design methods, I landed on the idea of "throw hardware at the wall and see what sticks".
 After being dissapointed and hurting my wrist using available digital design tools, I built by own breadboard CAD system.
@@ -149,23 +152,22 @@ I was amazed how easily it came together, and how much confidence it gave me to 
 I've now designed the general-purpose register file and made progress on the ALU module.
 I also built a timer module on a physical breadboard.
 
-
 ## Follow Up
 
 Note-to-self is not providing value due to lack of categorization and filtering.
 
 I don't think seasonalism (different kinds of work in different seasons) is really doing anything for me at the moment.
-I've got so much to experiment with and so much to develop that spring/summer are getting in each other's way.
+I've got so much to experiment with and so much to develop that spring and summer are getting in each other's way.
 
 The categorization of actions might be more of a series of principles rather than true categorization.
-For example, tasks must be perfective, but there's no requirement about then being/not being intertial or high activation energy.
+For example, tasks must be perfective, but there's no requirement about them being/not being intertial or high activation energy.
 
-On books: I'm amazed by how much Mom and Seian[sp?] read.
+On books: I'm amazed by how much Mom and Seian read.
 I'm not sure it's useful for me to start reading that much now, but I would like to think about reading more often.
 I did read "What is Life?" last season, but didn't end up reading "Triggers".
 I think I'll fix the latter one as soon as I can, since I'm working on improving my system at the moment anyway.
 
-I'm still not sure why updating okuno.info has been so high activation energy.
+I'm still not sure why updating okuno.info has had such high activation energy.
 I still haven't improved it, even though I've known I need to for three months now.
 I did try rebuilding it for a moment there before basically giving up, since I didn't want to go through the work of porting it, and my categorization system seems to be in a highly unstable state.
 
@@ -173,18 +175,18 @@ I did try rebuilding it for a moment there before basically giving up, since I d
 ## For Next Time
 
 Pay attention to the several changes to my focus subsystem:
-    * Focus is not a list of tasks.
-    * Focus is a reminder that I have things I want to do, regardless of my mood.
-    * Craft a [trigger](https://www.relay.fm/cortex/66) to ask about my focus rather than checking them off.
-    * Get focuses into resumable states rather than trying to get them into finished states.
-    * Use the unfocus as a list of things I know my future self will be ashamed of, rather than a list of things I'd be happy to have made progress on.
-    * Did focus on the left-hand side of the spread work?
-    * Did a loose-leaf monthly focus work?
+  * Focus is not a list of tasks.
+  * Focus is a reminder that I have things I want to do, regardless of my mood.
+  * Craft a [trigger](https://www.relay.fm/cortex/66) to ask about my focus rather than checking them off.
+  * Get focuses into resumable states rather than trying to get them into finished states.
+  * Use the unfocus as a list of things I know my future self will be ashamed of, rather than a list of things I'd be happy to have made progress on.
+  * Did focus on the left-hand side of the spread work?
+  * Did a loose-leaf monthly focus work?
 
 For garbage collection:
-    * Did I rebuild my gc checklist to account for dates rather than bools?
-    * How did I do with my weekly two-hour gc cycle? Numbers, please.
-    * Did I ask "Does it spark joy?"
+  * Did I rebuild my gc checklist to account for dates rather than bools?
+  * How did I do with my weekly two-hour gc cycle? Numbers, please.
+  * Did I ask "Does it spark joy?"
 
 Did I remember that my journal exists?
 Did I get good use out of it?
@@ -195,7 +197,15 @@ Did I try to meet with my pen friends?
 Focus on stillness again, especially for small tasks.
 
 Waking up is something that I need to optimize:
-    * I like setting my alarm for ~0900.
-    * Breakfast might just be acting as a break in my action before I even get moving.
-    * What if I set my alarm to ask me what I would like to do with the next two hours?
-    * How does the script on Even 8 April 12018 work w.r.t. Triggers?
+  * I like setting my alarm for ~0900.
+  * Breakfast might just be acting as a break in my action before I even get moving.
+  * What if I set my alarm to ask me what I would like to do with the next two hours?
+  * How does the script on Even 8 April 12018 work w.r.t. Triggers?
+
+Finally, I want to make some serious improvements in my system; at least get some design worked out:
+  * Do I have an inventory of my goals?
+  * How do I want to keep track of notes?
+  * What sort of information is important for tracking tasks?
+  * How are repeating tasks working for me?
+  * Are tags a useful organizational tool, or a temptation to unstructured data?
+  * Am I ready to start implementing the ideas in code?
