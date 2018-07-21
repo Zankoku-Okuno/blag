@@ -118,6 +118,14 @@ If we have a 4-bit opcode, that's 16 instructions (which should be plenty), and 
     * 4 bits for a small immediate (0--16 or -8--7) or offset)
     * 2 bits for a register, and 2 bits for an extended opcode
 
+#### Possible Revision 1
+
+I'm getting second thoughts about the instruction set:
+    * conditional branches are very strange
+    * the accumulator-based operations don't jive with the register-based idea
+    * I don't need that many arithmetic instructions
+    * If I only use 8-bit immediates, that lets me eliminate the sign-extension hardware needed for decoding small immediates.
+
 #### ISA
 
 Architecture:
@@ -216,6 +224,10 @@ Earlier instructions in each group are more important, but further instructions 
     * ALU: `add, sub, inc, dec, neg, clr, not`
     * MMU: `ld, st`
 
+#### Microarchitecture Notes
+
+I'm thinking that the execution units (XUs) + XU buffers resemble an accumulator architecture.
+At first, I thought that perhaps I should give in and build a PDP-8, but then I thought that I might get experience with both register and accumulator machines if I stick with my design.
 
 ### Attempt 2
 
