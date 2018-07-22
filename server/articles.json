@@ -62,6 +62,14 @@
     , "href": "keyboard"
     , "when": { "published": "2017-12-31" }
     }
+  , { "title": "Keyboard Optimization"
+    , "href": "journal/keeb-optimize"
+    , "when": { "published": "2017-10-08" }
+    }
+  , { "title": "Rethinking My Computers"
+    , "href": "journal/rethink-computers"
+    , "when": { "published": "2017-09-16" }
+    }
   ]
 , "Review":
   [ { "title": "Yearly Review: 12017"
