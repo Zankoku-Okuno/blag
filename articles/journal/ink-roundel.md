@@ -2,7 +2,7 @@
 
 One Sunday afternoon, after watching an Adam Savage one-day build, I ran out of internet.
 I stood up, paced a moment about what to do next, and realized that I had an idea to make a test tube sort of rack for my ink sample vials.
-So, thanks ,Adam Savage, for inspiring me to just build things and not ask stupid questions.
+So, thanks, Adam Savage, for inspiring me to just build things and not ask stupid questions.
 
 Fist, I looked to see if I had supplies.
 I knew I had a strip of softwood around from years ago, but I don't know what happened to it.
