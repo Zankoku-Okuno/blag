@@ -46,9 +46,7 @@
     }
   , { "title": "Systems for Conlanging"
     , "href": "journal/conlanging"
-    , "when":
-      { "published": "2018-03-13"
-      }
+    , "when": { "published": "2018-03-13" }
     }
   , { "title": "Well-Tuned Clock"
     , "href": "journal/clock"
@@ -57,6 +55,9 @@
   , { "title": "Calendar Logging"
     , "href": "journal/calendar_log"
     , "when": { "published": "2017-11-30" }
+    }
+  , { "title": "Ink Roundel"
+    , "href": "journal/ink-roundel"
     }
   , { "title": "Custom Keyboard"
     , "href": "keyboard"
