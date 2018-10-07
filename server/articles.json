@@ -1,20 +1,28 @@
 { "Approach":
   [ { "title": "Artifact Spirit"
     , "href": "artifact_spirit"
+    , "when":
+      { "published": "2018-03-10"
+      }
     }
   , { "title": "Abstraction"
     , "href": "programming-philosophy/abstraction"
+    , "when":
+      { "published": "2018-03-13"
+      }
     }
   , { "title": "Browser Applications"
     , "href": "browser-applications"
-    , "when": { "published": "2017-11-12" }
+    , "when":
+      { "published": "2017-11-12"
+      }
     }
   , { "title": "FizzBuzz"
     , "href": "programming-philosophy/fizzbuzz"
     , "when":
-        { "published": "2018-01-27"
-        , "updated": [ "2018-02-25" ]
-        }
+      { "published": "2018-01-27"
+      , "updated": [ "2018-02-25" ]
+      }
     }
   ]
 , "Journal":
@@ -25,8 +33,12 @@
         , "updated": [ "2018-03-17" ]
         }
     }
+  , { "title": "Computer Design Log"
+    , "href": "journal/homebrew-computer"
+    }
   , { "title": "How to Academic Writing"
     , "href": "journal/how-to-academic-writing"
+    , "when": { "published": "2018-02-03" }
     }
   , { "title": "How to Organize Code"
     , "href": "journal/organizing-code"
@@ -34,6 +46,7 @@
     }
   , { "title": "Systems for Conlanging"
     , "href": "journal/conlanging"
+    , "when": { "published": "2018-03-13" }
     }
   , { "title": "Well-Tuned Clock"
     , "href": "journal/clock"
@@ -43,8 +56,20 @@
     , "href": "journal/calendar_log"
     , "when": { "published": "2017-11-30" }
     }
+  , { "title": "Ink Roundel"
+    , "href": "journal/ink-roundel"
+    }
   , { "title": "Custom Keyboard"
     , "href": "keyboard"
+    , "when": { "published": "2017-12-31" }
+    }
+  , { "title": "Keyboard Optimization"
+    , "href": "journal/keeb-optimize"
+    , "when": { "published": "2017-10-08" }
+    }
+  , { "title": "Rethinking My Computers"
+    , "href": "journal/rethink-computers"
+    , "when": { "published": "2017-09-16" }
     }
   ]
 , "Review":
@@ -52,11 +77,19 @@
     , "href": "review/year-12017"
     , "when": { "published": "2017-12-03" }
     }
+  , { "title": "Seasonal Review: Summer 12018"
+    , "href": "review/season-12018c-summer"
+    }
+  , { "title": "Seasonal Review: Spring 12018"
+    , "href": "review/season-12018b-spring"
+    }
   , { "title": "Seasonal Review: Winter 12018"
     , "href": "review/season-12018a-winter"
+    , "when": { "published": "2018-04-01" }
     }
   , { "title": "Monthly Review: 12018 Feb"
     , "href": "review/month-12018-02"
+    , "when": { "published": "2018-02-28" }
     }
   , { "title": "Monthly Review: 12018 Jan"
     , "href": "review/month-12018-01"
@@ -81,7 +114,9 @@
     }
   , { "title": "How to Haiku"
     , "href": "how-to-haiku"
-    , "when": { "published": "2017-12-10" }
+    , "when":
+      { "published": "2017-12-10"
+      }
     }
   , { "title": "How to Story"
     , "href": "notes/how-to-story"
@@ -91,6 +126,12 @@
     }
   , { "title": "CLI Tools"
     , "href": "notes/cli"
+    }
+  , { "title": "How to Browser"
+    , "href": "notes/how-to-browser"
+    }
+  , { "title": "How to Digital Circuit"
+    , "href": "notes/digital-circuits"
     }
   ]
 , "Curiosities":

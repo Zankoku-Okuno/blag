@@ -32,3 +32,7 @@ Cognoscente (pl. cognoscenti) --- from Italian: Someone possessing superior or s
 from'ever --- English contraction: from forever
 
 SABLE --- English acronym: "Stash Acquisition Beyond Life Expectancy".
+
+Homotypic --- English jargon: of the same type
+
+Scope Meiosis --- English jargon: when scope creep goes so far that a project splits into two
