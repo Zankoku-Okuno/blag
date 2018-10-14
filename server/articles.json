@@ -79,6 +79,7 @@
     }
   , { "title": "Seasonal Review: Summer 12018"
     , "href": "review/season-12018c-summer"
+    , "when": { "published": "2018-10-14" }
     }
   , { "title": "Seasonal Review: Spring 12018"
     , "href": "review/season-12018b-spring"

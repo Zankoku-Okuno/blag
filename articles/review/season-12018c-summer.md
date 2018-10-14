@@ -1,7 +1,7 @@
- Review Summer 12018
+# Review Summer 12018
 
-Long story short, my action-analysis loop is broken.
-Almost half of this review is just me thinking about how I keep a better eye on growth through self-reflection.
+Long story short, my action-analysis loop is broken, but I've realized how important it is.
+Almost half of this review is just me thinking about how I build an evolution-first system.
 
 
 ## For Next Time
@@ -9,25 +9,17 @@ Almost half of this review is just me thinking about how I keep a better eye on 
 This time, I'm putting follow-up at the top.
 It's the last thing I write, but it's the first thing I should read when I look back at a review.
 
-Did the new follow-up system help improve my systems faster?
-
-Do I have a better grasp on scheduled items?
-How about making schedules of my own?
-
-Did I think about getting focuses into a resumable rather than a completed state?
-
-Did I ask "Does it spark joy?"
-
-Am I asking myself what I'd do with my morning when I wake up?
-Do I need to have an alarm that asks me?
-
-Is my shortlist/longlist better managed now?
-
-How did black calendar entries go?
-
-Regarding changing Sisyphus, did I move fast and break things?
-
-Have I got any good ideas on how to manage principles?
+  * Am I asking myself what I'd do with my morning when I wake up?
+    Do I need to have an alarm that asks me?
+  * Did I think about getting focuses into a resumable rather than a completed state?
+  * Did the new follow-up system help improve my systems faster?
+  * Do I have a better grasp on scheduled items?
+    How about making schedules of my own?
+  * Did I ask "Does it spark joy?"
+  * Is my shortlist/longlist better managed now?
+  * How did black calendar entries go?
+  * Regarding changing Sisyphus, did I move fast and break things?
+  * Have I got any good ideas on how to manage principles?
 
 
 
@@ -40,7 +32,7 @@ It's something that I've been missing previously, and if I'm finally starting to
 
 I've previously thought about my goal in life as contributing to the advance of world civilization.
 That perspective has haunted me, though: I've tied my identity to it, even though it's intractable to know what effects you have on your future light cone, and so I've been continuously doubtful about myself.
-The problem was really brought into stark contrast when Hank Green mentioned that thinking about success as begin in the top tier of usefulness to society is a messed up way of looking at it; after all, by definition only a few people can be top-tier, so that mindset sets up the vast majority of people for disappointment over their own life.
+The problem was really brought into stark contrast when Hank Green mentioned that thinking about success as "being in the top tier of usefulness to society" is a messed up way of looking at it; after all, by definition only a few people can be top-tier, so that mindset sets up the vast majority of people for disappointment at their own life.
 
 **The goal is to build a life that is more than just maintenance.**
 This purpose avoids the intractability problems that "higher purposes" can induce, and thereby I hope will avoid so much self-judgment.
@@ -52,7 +44,7 @@ If a proposed principle requires its user to make trade-offs, then it is not a p
 A lot of the things I've labeled "principles" are not principles in this sense.
 
 
-If I were to answer "What is Sisyphus for?", I'd have to say that I am trying to figure out how to live a life instead of survive my life.
+If I were to answer "What is Sisyphus for?", I'd have to say that **I am trying to figure out how to live a life instead of survive my life.**
 At this point, I've only just begun designing Sisyphus; like any large creation, the design could take the rest of my life.
 At only one year into a hopefully 50+ year project, I can't expect to be stumbling across or especially predicting what system will actually work well.
 At this point, I should be treating the problem as still deep in the explore phase, and nowhere near exploit.
@@ -68,9 +60,10 @@ Sisyphus needs an update.
 I've been putting it off for a long time, but there are a lot of little things that the system isn't particularly good at.
 There's going to be a huge trick to it, though.
 **Improving Sisyphus right now is a matter of simplifying, not extending.**
-At the same time, a lot of the fall-down is that too many slightly different things are grouped together.
+Unfortunately, a lot of the fall-down seems to be that too many slightly different things are grouped together.
 
 It's time to sit down and figure out what kinds of things I need my system to handle.
+I'll be thinking about and experimenting with these this fall.
   * review/follow-up
   * shortlist/focus, longlist
   * scheduling
@@ -79,7 +72,6 @@ It's time to sit down and figure out what kinds of things I need my system to ha
   * note collection
   * note searching
   * principles collection (attitudinal and design)
-I'll be thinking about and experimenting with these this fall.
 
 
 Given that I'm in an exploratory phase, I should move fast and break things.
@@ -96,7 +88,7 @@ Being in an exploratory phase, follow-up is going to be important, but I've real
 Obviously, I have my seasonal review blag, but that's a very long timescale for some things.
 The thing is, my blag'd reviews take too much work to do quickly, since they are being published.
 
-Sisyphus now needs to be **review-heavy, but light reviews.**
+Efficient evolution needs a Sisyphus that is **review-heavy, but with light reviews.**
 
 I think the single most important thing about getting a review done is to have all my notes in one place.
 In fact, I'm not sure that I really need much more in a review than organized notes.
@@ -142,9 +134,9 @@ I wish I could have checklists for each item, but that's not going to make it in
 
 My paper checklists are getting hidden.
 They were at the end of my front Midori book, which is ostensibly easy-to-find, but is an unnatural place for book navigation.
-The one that I actually used was my garbage collection checklist, but that's because I got reminders to use it.
+The only one that I actually used was my garbage collection checklist, but that's because I got reminders to use it.
 
-That said, my experiment --- rebuilding my gc checklist to use dates --- was not as successful as hoped.
+Even though I used it, my checklist experiment --- rebuilding my gc checklist to use dates --- was not as successful as hoped.
 The part where I choose a set of gc tasks and spend an hour a weekenday has done wonders for my mental state.
 On the other hand, I have little idea about what's most important, and comparing the dates is difficult.
 For this, I think I need a computer system to order things appropriately.
@@ -162,7 +154,7 @@ What controls do I do well, or should I just add automation and notifications?
 
 I think I don't like to plan ahead.
 Or perhaps, it's that I have no good tools.
-Simple calendars aren't capable of managing my large projects, and even sophisticated project management will likely have a hard time with my usual creative or exploratory process since it don't fit into a schedule well.
+Simple calendars aren't capable of managing my large projects, and even sophisticated project management will likely have a hard time with my usual creative or exploratory process since it won't fit into a schedule well.
 
 I think the first problem to solve is that of hard deadlines/appointments.
 I need to see these things more than one day out so that I'm not surprised by them, and can communicate my constraints to others better.
@@ -173,12 +165,13 @@ Unfortunately, I'm quite bad at meeting simple deadlines I give myself, so I nee
   * Ask someone else to ask me how stuff is going?
   * Use a timer and active questions?
   * Hang deadlines off external events (e.g. Lexember)?
+  * Time tracker to look at my time disbursement?
 
 When I get to planning creativity, then I can worry about more complex stuff.
 The following list is really just a bunch of speculation that I want to not necessarily forget when I go to brainstorm.
 
-  * floating times
-  * work time estimates backed by time tracking data (both time spent on specific work, and the time that I spend each day on work)
+  * floating times (within a timeframe, but not specifically set)
+  * work-time estimates backed by time tracking data (both time spent on specific work, and the time that I spend each day on work)
   * normal and skew distributions would be great models
   * map out my schedule for a timeframe and see how creative work fits in
 
@@ -203,8 +196,6 @@ An automatic schedule planner is unnecessary if I have a button that marks as co
 
 
 ## Technical
-
-TODO
 
 Since I don't move stuff out of my airbook, I've lost my experimental platform.
 
@@ -232,7 +223,7 @@ As much time as I _need_ to learn; as much time as I _can_ to practice.
 Don't do cleanup (esp. of code) w/o a checklist, or else cleanup creep becomes likely.
 My incremental gc actually follows this principle.
 As a corollary, when doing some cleanup, write down the pattern of cleanup you're doing in the coding standards document.
-- This has worked out well, as far as picking gc tasks
+For picking gc tasks, this has worked out well.
 
 
 
@@ -304,10 +295,3 @@ In fact, it seems I've gone far enough with the practice already that I've simpl
 I think `okuno.info` has served its purpose.
 It got me through a time where I was constantly asking myself "Now what?", and I'm no longer dealing with that problem.
 There are good ideas in there, but the collection of features currently there is not what I need right now.
-
-
-
-
-## Actions
-
-TODO
