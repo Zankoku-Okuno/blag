@@ -42,6 +42,7 @@ Further, it should be impossible to distinguish a combined object of interest fr
 Online advertising is there to support sites that don't have enough investment from either the owners or the users.
 
 Time is the only resource which is not only isn't renewable, but you can't even get any more after you've exhausted the local supply --- you're just dead at that point.
+Attention is more valuable though, since you have less of it than you have time.
 
 Minimalism in economics: "Your money is worth more if you have less of it"^[I.e. the marginal value of money to a rich person is not very high. I suppose the marginal value to civilization of money in the hands of the very poor is also not that good; if the money isn't doing more that keeping that person alive, then it's not growing civilization. Nevertheless, in the case of essentially every college-educated American, the epigram holds.].
 
