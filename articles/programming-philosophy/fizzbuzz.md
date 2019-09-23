@@ -28,18 +28,18 @@ Notice (1) I've made exactly zero effort to generalize my solution, (2) I'm usin
 There are good reasons for these choices, even if you think they're failings.
 
 #1. Let's play a game: you give me a generalized FizzBuzz program, and I'll try to give a different generalization of the problem that you can't solve without changing your code; I'll win every time.
-FizzBuzz is a problem so disconnected from reality --- i.e. useless --- that there's not the meagerest indication of what new "features" your "users" will "want".
+FizzBuzz is a problem so disconnected from reality---i.e. useless---that there's not the meagerest indication of what new "features" your "users" will "want".
 With only my ability to speculate, it would be an epistemic miracle if I chose the correct generalization, so I'm not going to waste my time guessing.
 
 #^s^2&3. What are you going to do to eliminate or condense these strings?
 Perhaps `let fizz = "Fizz"`?
 If so, don't forget to `let one = 1` too.
-Or just don't be stupid: note that (1) the magic strings are localized to a single, small function, and (2) the problem statement is perfectly clear, even though is uses strings in exactly the same form as the code.
+Or just don't be stupid: note that (1) the magic strings are localized to a single, small function, and (2) the problem statement is perfectly clear, even though it uses strings in exactly the same form as the code.
 Unless it will deliver added clarity or reliability, I'm not going to write unnecessary code.
 
 #4. Until some sort of `isDivisibleBy` function makes it into standard libraries, I'm content to use the centuries-old definition of divisibility in my code.
 Make no mistake: I have made improved standard libraries before, but it's just too hard to stick to that custom stuff everywhere, no matter how quality it is.
-A less ambition solution is to give this idiom a definition in its own library, but that induces a left-pad kind of problem.
+A less ambitious solution is to give this idiom a definition in its own library, but that induces a left-pad kind of problem.
 I'm not going to re-define this idiom every time I want to use it.
 
 ## Conclusion

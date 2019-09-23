@@ -44,5 +44,5 @@ Here it is on [wiki](https://en.wikipedia.org/wiki/Category_(mathematics)), and 
 [catcomp]: https://bartoszmilewski.com/2014/11/04/category-the-essence-of-composition/
 
 [Category: The Essence of Composition][catcomp] also contains a nice idea near its end: "So what are the right chunks for the composition of programs? Their surface area has to increase slower than their volume."
-Independently, I weant to ask: Givena program fragment, how much ofthe surrounding code do you need in order to understand it? The less, the more quickly and accurately humans will understand the code, and the less the computer needs to evaluate it.
-These ideas are related,but grossly informal.
+Independently, I want to ask: Given a program fragment, how much of the surrounding code do you need in order to understand it? The less, the more quickly and accurately humans will understand the code, and the less the computer needs to evaluate it.
+These ideas are related, but grossly informal.

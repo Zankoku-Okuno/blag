@@ -7,7 +7,7 @@ These are the best blue-style switches I've used, but I still think blue switche
 The Razer switches have about the same force and feedback, but they actuate just a little earlier, and that tiny change makes them feel wonderful.
 
 Unfortunately, all the Razer keyboards are designed for "gamers", and they can't be configured unless you're on Windows.
-Well, I'm not buying an operating system just to get the most out of my keyboard, and I can't stand the visuals.
+Well, I'm not buying an operating system just to get the most out of my keyboard, and I can't stand the styling.
 Surely there's a market for gaming keyboards that don't look like an off-brand replica of space marine armor?
 
 Also unfortunately, I couldn't find a way to order the switches from the manufacturer.
